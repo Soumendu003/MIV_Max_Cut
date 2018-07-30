@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1532863974 source:d:\miv max_cut partitioning\main.c
+1532983819 source:d:\miv max_cut partitioning\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Header.h"
 
-1532866823 d:\miv max_cut partitioning\header.h
+1532984820 d:\miv max_cut partitioning\header.h
 	<stdio.h>
 	<stdlib.h>
+	<stdbool.h>
+	<string.h>
 
