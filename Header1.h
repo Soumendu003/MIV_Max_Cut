@@ -54,6 +54,7 @@ void insert_bk_component(Net* bk_list,int index,int bk_index);
 void print_bk_component(FILE* fp,Net* net_list,int j);
 double Calculate_Total_Area(Block* bk_list,int B);
 void Initial_Partition(Block* bk_list,Net* net_list,int B,int N);
+void default_blocks_placement(Block* bk_list,int B);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

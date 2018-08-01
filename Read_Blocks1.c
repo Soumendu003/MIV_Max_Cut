@@ -100,7 +100,7 @@ double Calculate_Total_Area(Block* bk_list,int B)
     return area;
 }
 
-void default_place_blocks(Block* bk_list,int B)
+void default_blocks_placement(Block* bk_list,int B)
 {
     int i;
     for(i=0;i<B;i++)
