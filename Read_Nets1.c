@@ -73,11 +73,39 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
 
     }
     fclose(fp);
+    Initial_Partition(bk_list,net_list,B,N);
     free(net_list);
     return;
 
 }
 
+void initialize_net_list(Net* net_list,int N)
+{
+    int i;
+    for(i=0;i<N;i++)
+    {
+        if(net_list[i].gnd || net_list[i].pwr || net_list[i].V)
+        {
+            net_list[i].low_tier=0;
+        }
+        else{
+            net_list[i].low_tier=INT_MAX;
+        }
+        net_list[i].top_tier=-1;
+    }
+}
 
+void update_net_list(Net* net_list,int net_index,int tier_cnt)
+{
+    if(net_list[net_index].low_tier>tier_cnt)
+    {
+        net_list[net_index].low_tier=tier_cnt;
+    }
+    if(net_list[net_index].top_tier<tier_cnt)
+    {
+        net_list[net_index].top_tier=tier_cnt;
+    }
+    return;
+}
 
 

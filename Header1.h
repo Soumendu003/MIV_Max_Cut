@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<stdbool.h>
 #include<string.h>
+#include<limits.h>
 typedef struct block Block;
 struct block{
     char name[10];
@@ -55,6 +56,9 @@ void print_bk_component(FILE* fp,Net* net_list,int j);
 double Calculate_Total_Area(Block* bk_list,int B);
 void Initial_Partition(Block* bk_list,Net* net_list,int B,int N);
 void default_blocks_placement(Block* bk_list,int B);
+void initialize_net_list(Net* net_list,int N);
+void update_net_list(Net* net_list,int net_index,int tier_cnt);
+int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

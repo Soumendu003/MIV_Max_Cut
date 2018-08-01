@@ -108,3 +108,17 @@ void default_blocks_placement(Block* bk_list,int B)
         bk_list[i].tier=-1;
     }
 }
+
+int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt)
+{
+    if(tier_list[tier_cnt].rem_area-bk_list[bk_index].area>=0)
+    {
+        tier_list[tier_cnt].rem_area-=bk_list[bk_index].area;
+        bk_list[bk_index].tier=tier_cnt;
+        update_net_list(net_list,net_index,tier_cnt);
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
