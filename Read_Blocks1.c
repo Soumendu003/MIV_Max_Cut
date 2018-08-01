@@ -88,3 +88,23 @@ void print_bk_component(FILE* fp,Net* net_list,int j)
         tem=tem->right;
     }
 }
+
+double Calculate_Total_Area(Block* bk_list,int B)
+{
+    int i;
+    double area=0;
+    for(i=0;i<B;i++)
+    {
+        area+=bk_list[i].area;
+    }
+    return area;
+}
+
+void default_place_blocks(Block* bk_list,int B)
+{
+    int i;
+    for(i=0;i<B;i++)
+    {
+        bk_list[i].tier=-1;
+    }
+}

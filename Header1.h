@@ -41,11 +41,19 @@ struct net{
     Block_Component* bk_ptr;
     Terminal_Component* ter_ptr;
 };
+typedef  struct tier Tier;
+struct tier{
+    double rem_area;
+    int tot_bk;
+    Block_Component* bk_com;
+};
 void Read_Nets(FILE* fp1,Block* bk_list,int B);
 void Read_Blocks(FILE* fp1);
 int search_block(Block* bk_list,int lwr,int uppr,char* name);
 void insert_bk_component(Net* bk_list,int index,int bk_index);
 void print_bk_component(FILE* fp,Net* net_list,int j);
+double Calculate_Total_Area(Block* bk_list,int B);
+void Initial_Partition(Block* bk_list,Net* net_list,int B,int N);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)
