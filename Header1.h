@@ -33,6 +33,7 @@ struct net{
     int degree;
     int top_tier;
     int low_tier;
+    int no_of_bk;
     bool gnd;
     bool pwr;
     bool pad;
@@ -43,8 +44,8 @@ struct net{
 void Read_Nets(FILE* fp1,Block* bk_list,int B);
 void Read_Blocks(FILE* fp1);
 int search_block(Block* bk_list,int lwr,int uppr,char* name);
-void insert_bk_component(Net ele,int index);
-void print_bk_component(Net ele);
+void insert_bk_component(Net* bk_list,int index,int bk_index);
+void print_bk_component(FILE* fp,Net* net_list,int j);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)
