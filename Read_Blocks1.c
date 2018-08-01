@@ -41,9 +41,26 @@ void Read_Blocks(FILE* fp1)
     fclose(fp1);
     for(i=0;i<B;i++)
     {
-        printf("\n Block Name=%s\t Block Area=%d",bk_list[i].name,bk_list[i].area);
+        bk_list[i].index=i;
     }
-    //fp1=fopen("Nets.txt","r");
-    //Read_Nets(fp1,bk_list,B);
+    fp1=fopen("Nets.txt","r");
+    Read_Nets(fp1,bk_list,B);
     return;
 }
+
+int search_block(Block* bk_list,int lwr,int uppr,char* name)
+{
+    int val=(lwr+uppr)/2;
+    if(strcmp(bk_list[val].name,name)==0)
+    {
+        return val;
+    }
+    else if(strcmp(bk_list[val].name,name)>0)
+    {
+        return search_block(bk_list,lwr,val-1,name);
+    }
+    else{
+        return search_block(bk_list,val+1,uppr,name);
+    }
+}
+
