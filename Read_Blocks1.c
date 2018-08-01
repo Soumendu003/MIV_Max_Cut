@@ -43,8 +43,13 @@ void Read_Blocks(FILE* fp1)
     {
         bk_list[i].index=i;
     }
-    fp1=fopen("Nets.txt","r");
+    /*for(i=0;i<B;i++)
+    {
+        printf("\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
+    }*/
+    fp1=fopen("Nets1.txt","r");
     Read_Nets(fp1,bk_list,B);
+    fclose(fp1);
     return;
 }
 
@@ -64,3 +69,25 @@ int search_block(Block* bk_list,int lwr,int uppr,char* name)
     }
 }
 
+void insert_bk_component(Net ele,int index)
+{
+    Block_Component* tem=(Block_Component*)calloc(1,sizeof(Block_Component));
+    tem->bk_index=index;
+    tem->right=ele.bk_ptr;
+    ele.bk_ptr=tem;
+    if(tem->right!=NULL)
+    {
+        tem->right->left=tem;
+    }
+    return;
+}
+
+void print_bk_component(Net ele)
+{
+    Block_Component* tem=ele.bk_ptr;
+    while(tem!=NULL)
+    {
+        printf("\tbk_index=%d",tem->bk_index);
+        tem=tem->right;
+    }
+}

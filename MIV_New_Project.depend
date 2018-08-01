@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1533069728 source:d:\miv_new_project\main.c
+1533132606 source:d:\miv_new_project\main.c
 	"Header1.h"
 
 1533068367 d:\miv_new_project\header.h
@@ -14,15 +14,15 @@
 1533068279 source:d:\miv_new_project\read_nets.c
 	"header.h"
 
-1533069908 source:d:\miv_new_project\read_blocks1.c
+1533133938 source:d:\miv_new_project\read_blocks1.c
 	"Header1.h"
 
-1533069585 d:\miv_new_project\header1.h
+1533131243 d:\miv_new_project\header1.h
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
 	<string.h>
 
-1533069696 source:d:\miv_new_project\read_nets1.c
+1533134194 source:d:\miv_new_project\read_nets1.c
 	"Header1.h"
 

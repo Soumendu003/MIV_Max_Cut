@@ -41,11 +41,10 @@ struct net{
     Terminal_Component* ter_ptr;
 };
 void Read_Nets(FILE* fp1,Block* bk_list,int B);
-void print_bk_component(Block_Component* ptr);
 void Read_Blocks(FILE* fp1);
-void sort_blocks(Block* bk_list,int p,int q);
-int search_block(Block* bk_list,int B,char* name);
-
+int search_block(Block* bk_list,int lwr,int uppr,char* name);
+void insert_bk_component(Net ele,int index);
+void print_bk_component(Net ele);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)
