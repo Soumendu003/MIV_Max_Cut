@@ -59,6 +59,8 @@ void default_blocks_placement(Block* bk_list,int B);
 void initialize_net_list(Net* net_list,int N);
 void update_net_list(Net* net_list,int net_index,int tier_cnt);
 int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt);
+void claculate_MIV(Net* net_list,int N,int T);
+void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

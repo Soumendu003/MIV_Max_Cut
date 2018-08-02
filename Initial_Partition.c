@@ -66,5 +66,14 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);
     }
     fclose(fp);
+    custom_update_net_list(net_list,bk_list,N,B,T);
+    fp=fopen("Net_list_after_initial_partition.txt","w+");
+    for(i=0;i<N;i++)
+    {
+        fprintf(fp,"\nThe Net Degree=%d\t Number of Blocks=%d",net_list[i].degree,net_list[i].no_of_bk);
+        fprintf(fp,"\nGND pin=%d\tPOW pin=%d",net_list[i].gnd,net_list[i].pwr);
+        fprintf(fp,"\nTop_tier=%d\t Low_Tier=%d",net_list[i].top_tier,net_list[i].low_tier);
+    }
+    claculate_MIV(net_list,N,T);
     free(tier_list);
 }

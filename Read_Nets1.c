@@ -108,4 +108,29 @@ void update_net_list(Net* net_list,int net_index,int tier_cnt)
     return;
 }
 
+void claculate_MIV(Net* net_list,int N,int T)
+{
+    int i,j,MIV=0;
+    for(i=0;i<N;i++)
+    {
+        MIV+=net_list[i].top_tier-net_list[i].low_tier;
+    }
+    printf("\n Total no of MIV=%d",MIV);
+}
 
+void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T)
+{
+    int i;
+    for(i=0;i<N;i++)
+    {
+        if(net_list[i].top_tier<0 || net_list[i].low_tier>=T)
+        {
+            Block_Component* tem=net_list[i].bk_ptr;
+            while(tem!=NULL)
+            {
+                update_net_list(net_list,i,bk_list[tem->bk_index].tier);
+                tem=tem->right;
+            }
+        }
+    }
+}
