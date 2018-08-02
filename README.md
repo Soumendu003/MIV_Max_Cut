@@ -1,2 +1,2 @@
-# MIV_Max_Cut
+# Project 1
 Project
