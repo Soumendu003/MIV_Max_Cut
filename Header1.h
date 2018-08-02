@@ -3,12 +3,19 @@
 #include<stdbool.h>
 #include<string.h>
 #include<limits.h>
+typedef struct net_com Net_Component;
+struct net_com{
+    int net_index;
+    Net_Component* left;
+    Net_Component* right;
+};
 typedef struct block Block;
 struct block{
     char name[10];
     int index;
     int area;
     int tier;
+    Net_Component* net_ptr;
 };
 
 typedef struct terminal Terminal;
@@ -17,6 +24,7 @@ struct terminal{
     int index;
     int tier;
 };
+
 typedef struct bk_com Block_Component;
 struct bk_com{
     int bk_index;

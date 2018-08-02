@@ -1,6 +1,7 @@
 #include"Header1.h"
 void Read_Nets(FILE* fp1,Block* bk_list,int B)
 {
+    printf("\n Inside Read net");
     int i,j,N,tot_pin,deg,cnt=0;
     fscanf(fp1,"%d",&N);
     Net* net_list=(Net*)calloc(N,sizeof(Net));
@@ -73,6 +74,10 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
 
     }
     fclose(fp);
+    for(i=0;i<N;i++)
+    {
+        insert_net_component(net_list,bk_list,i);
+    }
     Initial_Partition(bk_list,net_list,B,N);
     free(net_list);
     return;
@@ -133,4 +138,9 @@ void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T)
             }
         }
     }
+}
+
+void insert_net_component(Net* net_list,Block* bk_list,int net_index)
+{
+
 }

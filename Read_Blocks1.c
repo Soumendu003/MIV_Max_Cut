@@ -72,7 +72,16 @@ int search_block(Block* bk_list,int lwr,int uppr,char* name)
 
 void insert_bk_component(Net* net_list,int index,int bk_index)
 {
-    Block_Component* tem=(Block_Component*)calloc(1,sizeof(Block_Component));
+    Block_Component* tem=net_list[index].bk_ptr;
+    while(tem!=NULL)
+    {
+        if(tem->bk_index==bk_index)
+        {
+            return;
+        }
+        tem=tem->right;
+    }
+    tem=(Block_Component*)calloc(1,sizeof(Block_Component));
     tem->bk_index=bk_index;
     tem->right=net_list[index].bk_ptr;
     net_list[index].bk_ptr=tem;
