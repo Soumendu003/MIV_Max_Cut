@@ -1,0 +1,16 @@
+
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0

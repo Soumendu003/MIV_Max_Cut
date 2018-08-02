@@ -56,6 +56,13 @@ struct tier{
     int tot_bk;
     Block_Component* bk_com;
 };
+typedef struct gain Gain;
+struct gain{
+    int bk_index;
+    int net_index;
+    int tier_index;
+    int gain_value;
+};
 void Read_Nets(FILE* fp1,Block* bk_list,int B);
 void Read_Blocks(FILE* fp1);
 int search_block(Block* bk_list,int lwr,int uppr,char* name);
@@ -69,6 +76,10 @@ void update_net_list(Net* net_list,int net_index,int tier_cnt);
 int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt);
 void claculate_MIV(Net* net_list,int N,int T);
 void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T);
+void print_net_component(FILE* fp,Block* bk_list,int bk_index);
+int cost(Net* net_list,int net_index,int tier_no);
+void calculate_gain_list(int** Cost,Gain* gain_list,int* Pre_Cost,int B,int T);
+int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

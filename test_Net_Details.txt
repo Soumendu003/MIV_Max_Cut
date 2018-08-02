@@ -1,0 +1,28 @@
+
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=4
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+bk_component=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4

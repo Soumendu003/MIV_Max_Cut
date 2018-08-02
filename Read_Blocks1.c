@@ -1,7 +1,7 @@
 #include"Header1.h"
 void Read_Blocks(FILE* fp1)
 {
-    int i,B,T,cnt=0,tr_cnt=0;
+    int i,B,T,cnt=0;
     char* str=(char*)calloc(10,sizeof(char));
     int area;
     fscanf(fp1,"%d",&B);
@@ -43,12 +43,7 @@ void Read_Blocks(FILE* fp1)
     {
         bk_list[i].index=i;
     }
-    FILE* fp=fopen("Block_details.txt","w+");
-    for(i=0;i<B;i++)
-    {
-        fprintf(fp,"\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
-    }
-    fp1=fopen("Nets1.txt","r");
+    fp1=fopen("test_nets.txt","r");
     Read_Nets(fp1,bk_list,B);
     fclose(fp1);
     return;
@@ -124,10 +119,38 @@ int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int b
     {
         tier_list[tier_cnt].rem_area-=bk_list[bk_index].area;
         bk_list[bk_index].tier=tier_cnt;
-        update_net_list(net_list,net_index,tier_cnt);
+        //update_net_list(net_list,net_index,tier_cnt);
         return 1;
     }
     else{
         return 0;
+    }
+}
+
+int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no)
+{
+    int Cost=0;
+    Net_Component* net_com_ptr;
+    net_com_ptr=bk_list[bk_index].net_ptr;
+    while(net_com_ptr!=NULL)
+    {
+        Cost+=cost(net_list,net_com_ptr->net_index,tier_no);
+        net_com_ptr=net_com_ptr->right;
+    }
+    return Cost;
+}
+
+void calculate_gain_list(int** Cost,Gain* gain_list,int* Pre_Cost,int B,int T)
+{
+    int i,j,k=0;
+    for(i=0;i<B;i++)
+    {
+        for(j=0;j<T;j++)
+        {
+            gain_list[k].bk_index=i;
+            gain_list[k].tier_index=j;
+            gain_list[k].gain_value=Cost[i][j]-Pre_Cost[i];
+            k++;
+        }
     }
 }

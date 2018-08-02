@@ -1,0 +1,8 @@
+6
+0
+bk1 softrectangular 3
+bk2 softrectangular 2
+bk3 softrectangular 4
+bk4 softrectangular 1
+bk5 softrectangular 3
+bk6 softrectangular 5

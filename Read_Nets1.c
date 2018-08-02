@@ -74,10 +74,25 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
 
     }
     fclose(fp);
+    printf("\n Net Details Printed");
     for(i=0;i<N;i++)
     {
-        insert_net_component(net_list,bk_list,i);
+        Block_Component* tem=net_list[i].bk_ptr;
+        while(tem!=NULL)
+        {
+            insert_net_component(bk_list,tem->bk_index,i);
+            tem=tem->right;
+        }
     }
+    printf("\n Net components inserted");
+    fp=fopen("Block_details.txt","w+");
+    for(i=0;i<B;i++)
+    {
+        fprintf(fp,"\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
+        fprintf(fp,"\n Net List=");
+        print_net_component(fp,bk_list,i);
+    }
+    fclose(fp);
     Initial_Partition(bk_list,net_list,B,N);
     free(net_list);
     return;
@@ -140,7 +155,37 @@ void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T)
     }
 }
 
-void insert_net_component(Net* net_list,Block* bk_list,int net_index)
+void insert_net_component(Block* bk_list,int bk_index,int net_index)
 {
+    Net_Component* tem=(Net_Component*)calloc(1,sizeof(Net_Component));
+    tem->net_index=net_index;
+    tem->right=bk_list[bk_index].net_ptr;
+    bk_list[bk_index].net_ptr=tem;
+    return;
+}
+
+void print_net_component(FILE* fp,Block* bk_list,int bk_index)
+{
+    Net_Component* tem=bk_list[bk_index].net_ptr;
+    while(tem!=NULL)
+    {
+        fprintf(fp,"\nnet_component=%d",tem->net_index);
+        tem=tem->right;
+    }
+    return;
+}
+
+int cost(Net* net_list,int net_index,int tier_no)
+{
+    if(net_list[net_index].top_tier<tier_no)
+    {
+        return (tier_no-net_list[net_index].low_tier);
+    }
+    if(net_list[net_index].low_tier>tier_no)
+    {
+
+        return (net_list[net_index].top_tier-tier_no);
+    }
+    return (net_list[net_index].top_tier-net_list[net_index].low_tier);
 
 }

@@ -1,0 +1,25 @@
+
+ Block_Name=1	 Block_Index=0
+ Net List=
+net_component=0
+ Block_Name=2	 Block_Index=1
+ Net List=
+net_component=3
+net_component=2
+net_component=1
+net_component=0
+ Block_Name=3	 Block_Index=2
+ Net List=
+net_component=2
+net_component=0
+ Block_Name=4	 Block_Index=3
+ Net List=
+net_component=4
+net_component=2
+ Block_Name=5	 Block_Index=4
+ Net List=
+net_component=4
+net_component=1
+ Block_Name=6	 Block_Index=5
+ Net List=
+net_component=3
