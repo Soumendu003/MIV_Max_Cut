@@ -33,6 +33,9 @@
 		</Compiler>
 		<Unit filename="Blocks1.txt" />
 		<Unit filename="Header1.h" />
+		<Unit filename="Initial_Partition.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="Nets1.txt" />
 		<Unit filename="Read_Blocks1.c">
 			<Option compilerVar="CC" />
