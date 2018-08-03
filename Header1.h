@@ -15,6 +15,7 @@ struct block{
     int index;
     int area;
     int tier;
+    bool lock;
     Net_Component* net_ptr;
 };
 
@@ -81,6 +82,8 @@ int cost(Net* net_list,int net_index,int tier_no);
 void calculate_gain_list(int** Cost,Gain* gain_list,int* Pre_Cost,int B,int T);
 int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no);
 void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,int T);
+void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index);
+void build_gain_heap(Gain* gain_list,int last_index);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)
