@@ -62,6 +62,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         cnt++;
         }
     }
+    printf("\n Reading Done");
     FILE* fp=fopen("Net_Details.txt","w");
     for(j=0;j<N;j++)
     {

@@ -21,6 +21,17 @@ void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,
     }
     Gain* gain_list=(Gain*)calloc(T*B,sizeof(Gain));
     calculate_gain_list(Cost,gain_list,Pre_Cost,B,T);
-
-
+    FILE* fp=fopen("Gain_list.txt","w");
+    for(i=0;i<T*B;i++)
+    {
+        fprintf(fp,"\nBlock=%d\tTier=%d\tGain_value=%d",gain_list[i].bk_index,gain_list[i].tier_index,gain_list[i].gain_value);
+    }
+    fclose(fp);
+    free(Pre_Cost);
+    free(gain_list);
+    for(i=0;i<B;i++)
+    {
+        free(Cost[i]);
+    }
+    free(Cost);
 }

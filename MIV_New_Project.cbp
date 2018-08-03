@@ -43,9 +43,14 @@
 		<Unit filename="Read_Nets1.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="Secondary_Partition.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="test_blocks.txt" />
+		<Unit filename="test_nets.txt" />
 		<Extensions>
 			<code_completion />
 			<envvars />

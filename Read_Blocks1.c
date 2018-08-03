@@ -43,7 +43,7 @@ void Read_Blocks(FILE* fp1)
     {
         bk_list[i].index=i;
     }
-    fp1=fopen("test_nets.txt","r");
+    fp1=fopen("Nets1.txt","r");
     Read_Nets(fp1,bk_list,B);
     fclose(fp1);
     return;
