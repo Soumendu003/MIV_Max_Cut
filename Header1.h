@@ -9,6 +9,13 @@ struct net_com{
     Net_Component* left;
     Net_Component* right;
 };
+typedef struct gain Gain;
+struct gain{
+    int bk_index;
+    int tier_index;
+    int gain_value;
+    int current_index;
+};
 typedef struct block Block;
 struct block{
     char name[10];
@@ -16,7 +23,9 @@ struct block{
     int area;
     int tier;
     bool lock;
+    int Current_Cost;
     Net_Component* net_ptr;
+    Gain** gain_list;
 };
 
 typedef struct terminal Terminal;
@@ -37,12 +46,18 @@ struct tr_com{
     Terminal* Add;
     Terminal* Next;
 };
+typedef struct net_tier_com Net_Tier_Component;
+struct net_tier_com{
+    int tier_index;
+    int bk_count;
+    Block_Component* bk_ptr;
+};
 typedef struct net Net;
 struct net{
     int index;
     int degree;
-    int top_tier;
-    int low_tier;
+    Net_Tier_Component top_tier;
+    Net_Tier_Component low_tier;
     int no_of_bk;
     bool gnd;
     bool pwr;
@@ -57,13 +72,8 @@ struct tier{
     int tot_bk;
     Block_Component* bk_com;
 };
-typedef struct gain Gain;
-struct gain{
-    int bk_index;
-    int net_index;
-    int tier_index;
-    int gain_value;
-};
+
+
 void Read_Nets(FILE* fp1,Block* bk_list,int B);
 void Read_Blocks(FILE* fp1);
 int search_block(Block* bk_list,int lwr,int uppr,char* name);
@@ -73,17 +83,22 @@ double Calculate_Total_Area(Block* bk_list,int B);
 void Initial_Partition(Block* bk_list,Net* net_list,int B,int N);
 void default_blocks_placement(Block* bk_list,int B);
 void initialize_net_list(Net* net_list,int N);
-void update_net_list(Net* net_list,int net_index,int tier_cnt);
+void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt);
 int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt);
 void claculate_MIV(Net* net_list,int N,int T);
 void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T);
 void print_net_component(FILE* fp,Block* bk_list,int bk_index);
-int cost(Net* net_list,int net_index,int tier_no);
-void calculate_gain_list(int** Cost,Gain* gain_list,int* Pre_Cost,int B,int T);
+int cost(Net* net_list,int net_index,int bk_index,int tier_no);
+void calculate_gain_list(int** Cost,Gain** gain_list,Block* bk_list,int B,int T);
 int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no);
 void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,int T);
-void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index);
-void build_gain_heap(Gain* gain_list,int last_index);
+void Max_Heapify_Gain(Gain** gain_list,int ele_index,int last_index);
+void build_gain_heap(Gain** gain_list,int last_index);
+void free_net_tier_block_components(Net_Tier_Component ele);
+void free_block_component(Block_Component* ele);
+void insert_net_tier_block_components(Net_Tier_Component ele,int bk_index);
+void insert_net_component(Block* bk_list,int bk_index,int net_index);
+void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

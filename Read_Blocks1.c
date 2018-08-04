@@ -134,23 +134,53 @@ int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no)
     net_com_ptr=bk_list[bk_index].net_ptr;
     while(net_com_ptr!=NULL)
     {
-        Cost+=cost(net_list,net_com_ptr->net_index,tier_no);
+        Cost+=cost(net_list,net_com_ptr->net_index,bk_index,tier_no);
         net_com_ptr=net_com_ptr->right;
     }
     return Cost;
 }
 
-void calculate_gain_list(int** Cost,Gain* gain_list,int* Pre_Cost,int B,int T)
+void calculate_gain_list(int** Cost,Gain** gain_list,Block* bk_list,int B,int T)
 {
     int i,j,k=0;
     for(i=0;i<B;i++)
     {
         for(j=0;j<T;j++)
         {
-            gain_list[k].bk_index=i;
-            gain_list[k].tier_index=j;
-            gain_list[k].gain_value=Cost[i][j]-Pre_Cost[i];
+            gain_list[k]->bk_index=i;
+            gain_list[k]->tier_index=j;
+            gain_list[k]->gain_value=Cost[i][j]-bk_list[i].Current_Cost;
             k++;
         }
+    }
+}
+
+void free_block_component(Block_Component* ele)
+{
+    if(ele->right!=NULL)
+    {
+        free_block_component(ele->right);
+    }
+    free(ele);
+    return;
+}
+
+void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt)
+{
+    int i,j,k=0;
+    for(i=0;i<B;i++)
+    {
+        bk_list[i].gain_list=(Gain**)calloc(T,sizeof(Gain*));
+    }
+    for(i=0;i<B;i++)
+    {
+        for(j=0;j<T;j++)
+        {
+            gain_list[k]=(Gain*)calloc(1,sizeof(Gain));
+            bk_list[i].gain_list[j]=gain_list[k];
+            gain_list[k]->current_index=k;
+            k++;
+        }
+
     }
 }

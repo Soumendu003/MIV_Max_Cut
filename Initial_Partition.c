@@ -72,11 +72,16 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
     {
         fprintf(fp,"\nThe Net Degree=%d\t Number of Blocks=%d",net_list[i].degree,net_list[i].no_of_bk);
         fprintf(fp,"\nGND pin=%d\tPOW pin=%d",net_list[i].gnd,net_list[i].pwr);
-        fprintf(fp,"\nTop_tier=%d\t Low_Tier=%d",net_list[i].top_tier,net_list[i].low_tier);
+        fprintf(fp,"\nTop_tier=%d\t Low_Tier=%d",net_list[i].top_tier.tier_index,net_list[i].low_tier.tier_index);
     }
     fclose(fp);
     claculate_MIV(net_list,N,T);
     printf("\n Calling Secondary Partition:");
     Secondary_Partition(net_list,bk_list,tier_list,N,B,T);
     free(tier_list);
+    for(i=0;i<B;i++)
+    {
+        free(bk_list[i].gain_list);
+    }
+    free(bk_list);
 }

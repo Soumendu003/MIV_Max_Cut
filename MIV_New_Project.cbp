@@ -32,6 +32,9 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="Blocks1.txt" />
+		<Unit filename="Compromized_FM.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="Header1.h" />
 		<Unit filename="Initial_Partition.c">
 			<Option compilerVar="CC" />

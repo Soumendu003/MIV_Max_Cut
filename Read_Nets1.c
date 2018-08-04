@@ -107,34 +107,48 @@ void initialize_net_list(Net* net_list,int N)
     {
         if(net_list[i].gnd || net_list[i].pwr || net_list[i].V)
         {
-            net_list[i].low_tier=0;
+            net_list[i].low_tier.tier_index=0;
         }
         else{
-            net_list[i].low_tier=INT_MAX;
+            net_list[i].low_tier.tier_index=INT_MAX;
         }
-        net_list[i].top_tier=-1;
+        net_list[i].top_tier.tier_index=-1;
     }
 }
 
-void update_net_list(Net* net_list,int net_index,int tier_cnt)
+void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt)
 {
-    if(net_list[net_index].low_tier>tier_cnt)
+    if(net_list[net_index].low_tier.tier_index>tier_cnt)
     {
-        net_list[net_index].low_tier=tier_cnt;
+        net_list[net_index].low_tier.tier_index=tier_cnt;
+        net_list[net_index].low_tier.bk_count=0;
+        free_net_tier_block_components(net_list[net_index].low_tier);
+        insert_net_tier_block_components(net_list[net_index].low_tier,bk_index);
     }
-    if(net_list[net_index].top_tier<tier_cnt)
+    if(net_list[net_index].top_tier.tier_index<tier_cnt)
     {
-        net_list[net_index].top_tier=tier_cnt;
+        net_list[net_index].top_tier.tier_index=tier_cnt;
+        net_list[net_index].top_tier.bk_count=0;
+        free_net_tier_block_components(net_list[net_index].top_tier);
+        insert_net_tier_block_components(net_list[net_index].top_tier,bk_index);
+    }
+    if(net_list[net_index].low_tier.tier_index==tier_cnt)
+    {
+        insert_net_tier_block_components(net_list[net_index].low_tier,bk_index);
+    }
+    if(net_list[net_index].top_tier.tier_index==tier_cnt)
+    {
+        insert_net_tier_block_components(net_list[net_index].top_tier,bk_index);
     }
     return;
 }
 
 void claculate_MIV(Net* net_list,int N,int T)
 {
-    int i,j,MIV=0;
+    int i,MIV=0;
     for(i=0;i<N;i++)
     {
-        MIV+=net_list[i].top_tier-net_list[i].low_tier;
+        MIV+=net_list[i].top_tier.tier_index-net_list[i].low_tier.tier_index;
     }
     printf("\n Total no of MIV=%d",MIV);
 }
@@ -144,12 +158,12 @@ void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T)
     int i;
     for(i=0;i<N;i++)
     {
-        if(net_list[i].top_tier<0 || net_list[i].low_tier>=T)
+        if(net_list[i].top_tier.tier_index<0 || net_list[i].low_tier.tier_index>=T)
         {
             Block_Component* tem=net_list[i].bk_ptr;
             while(tem!=NULL)
             {
-                update_net_list(net_list,i,bk_list[tem->bk_index].tier);
+                update_net_list(net_list,i,tem->bk_index,bk_list[tem->bk_index].tier);
                 tem=tem->right;
             }
         }
@@ -176,17 +190,66 @@ void print_net_component(FILE* fp,Block* bk_list,int bk_index)
     return;
 }
 
-int cost(Net* net_list,int net_index,int tier_no)
+int cost(Net* net_list,int net_index,int bk_index,int tier_no)
 {
-    if(net_list[net_index].top_tier<tier_no)
+    if(net_list[net_index].top_tier.tier_index<tier_no)
     {
-        return (tier_no-net_list[net_index].low_tier);
+        return (tier_no-net_list[net_index].low_tier.tier_index);
     }
-    if(net_list[net_index].low_tier>tier_no)
+    if(net_list[net_index].low_tier.tier_index>tier_no)
     {
 
-        return (net_list[net_index].top_tier-tier_no);
+        return (net_list[net_index].top_tier.tier_index-tier_no);
     }
-    return (net_list[net_index].top_tier-net_list[net_index].low_tier);
+    if(net_list[net_index].top_tier.tier_index>tier_no)
+    {
+        if(net_list[net_index].top_tier.bk_count==1)
+        {
+            if(net_list[net_index].top_tier.bk_ptr->bk_index==bk_index)
+            {
+                return (tier_no-net_list[net_index].low_tier.tier_index);
+            }
+        }
+    }
+    if(net_list[net_index].low_tier.tier_index<tier_no)
+    {
+        if(net_list[net_index].low_tier.bk_count==1)
+        {
+            if(net_list[net_index].low_tier.bk_ptr->bk_index==bk_index)
+            {
+                return (net_list[net_index].top_tier.tier_index-tier_no);
+            }
+        }
+    }
+    return (net_list[net_index].top_tier.tier_index-net_list[net_index].low_tier.tier_index);
 
+}
+
+void free_net_tier_block_components(Net_Tier_Component ele)
+{
+    Block_Component* tem=ele.bk_ptr;
+    if(tem!=NULL)
+    {
+        free_block_component(tem);
+    }
+
+}
+
+void insert_net_tier_block_components(Net_Tier_Component ele,int bk_index)
+{
+    if(ele.bk_ptr==NULL)
+    {
+        ele.bk_ptr=(Block_Component*)calloc(1,sizeof(Block_Component));
+        ele.bk_ptr->bk_index=bk_index;
+    }
+    else{
+        Block_Component* tem=ele.bk_ptr;
+        while(tem->right!=NULL)
+        {
+            tem=tem->right;
+        }
+        tem->right=(Block_Component*)calloc(1,sizeof(Block_Component));
+        tem->right->bk_index=bk_index;
+    }
+    ele.bk_count++;
 }
