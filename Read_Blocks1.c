@@ -113,11 +113,12 @@ void default_blocks_placement(Block* bk_list,int B)
     }
 }
 
-int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt)
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt)
 {
     if(tier_list[tier_cnt].rem_area-bk_list[bk_index].area>=0)
     {
         tier_list[tier_cnt].rem_area-=bk_list[bk_index].area;
+        tier_list[bk_list[bk_index].tier].rem_area+=bk_list[bk_index].area;
         bk_list[bk_index].tier=tier_cnt;
         //update_net_list(net_list,net_index,tier_cnt);
         return 1;
@@ -168,13 +169,13 @@ void free_block_component(Block_Component* ele)
 void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt)
 {
     int i,j,k=0;
-    for(i=0;i<B;i++)
+    for(i=0;i<block_cnt;i++)
     {
-        bk_list[i].gain_list=(Gain**)calloc(T,sizeof(Gain*));
+        bk_list[i].gain_list=(Gain**)calloc(tier_size,sizeof(Gain*));
     }
-    for(i=0;i<B;i++)
+    for(i=0;i<block_cnt;i++)
     {
-        for(j=0;j<T;j++)
+        for(j=0;j<tier_size;j++)
         {
             gain_list[k]=(Gain*)calloc(1,sizeof(Gain));
             bk_list[i].gain_list[j]=gain_list[k];

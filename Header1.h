@@ -24,6 +24,7 @@ struct block{
     int tier;
     bool lock;
     int Current_Cost;
+    Block_Component* adj_bk_ptr;
     Net_Component* net_ptr;
     Gain** gain_list;
 };
@@ -38,7 +39,6 @@ struct terminal{
 typedef struct bk_com Block_Component;
 struct bk_com{
     int bk_index;
-    Block_Component* left;
     Block_Component* right;
 };
 typedef struct tr_com Terminal_Component;
@@ -72,7 +72,11 @@ struct tier{
     int tot_bk;
     Block_Component* bk_com;
 };
-
+typedef struct wait Wait_List;
+struct wait{
+    int wait_bk_cnt;
+    Gain* gain_component;
+};
 
 void Read_Nets(FILE* fp1,Block* bk_list,int B);
 void Read_Blocks(FILE* fp1);
@@ -84,7 +88,7 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N);
 void default_blocks_placement(Block* bk_list,int B);
 void initialize_net_list(Net* net_list,int N);
 void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt);
-int place_block(Tier* tier_list,Block* bk_list,Net* net_list,int net_index,int bk_index,int tier_cnt);
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt);
 void claculate_MIV(Net* net_list,int N,int T);
 void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T);
 void print_net_component(FILE* fp,Block* bk_list,int bk_index);
@@ -99,6 +103,9 @@ void free_block_component(Block_Component* ele);
 void insert_net_tier_block_components(Net_Tier_Component ele,int bk_index);
 void insert_net_component(Block* bk_list,int bk_index,int net_index);
 void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt);
+Gain* Extract_Heap(Gain** gain_list,int* heap_size);
+void Compromized_FM(Gain** gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T);
+
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)
