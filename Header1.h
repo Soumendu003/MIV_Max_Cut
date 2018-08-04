@@ -6,7 +6,6 @@
 typedef struct net_com Net_Component;
 struct net_com{
     int net_index;
-    Net_Component* left;
     Net_Component* right;
 };
 typedef struct gain Gain;
@@ -16,6 +15,11 @@ struct gain{
     int gain_value;
     int current_index;
 };
+typedef struct bk_com Block_Component;
+struct bk_com{
+    int bk_index;
+    Block_Component* right;
+};
 typedef struct block Block;
 struct block{
     char name[10];
@@ -23,6 +27,7 @@ struct block{
     int area;
     int tier;
     bool lock;
+    int no_of_adj_bk;
     int Current_Cost;
     Block_Component* adj_bk_ptr;
     Net_Component* net_ptr;
@@ -36,11 +41,6 @@ struct terminal{
     int tier;
 };
 
-typedef struct bk_com Block_Component;
-struct bk_com{
-    int bk_index;
-    Block_Component* right;
-};
 typedef struct tr_com Terminal_Component;
 struct tr_com{
     Terminal* Add;
@@ -105,7 +105,8 @@ void insert_net_component(Block* bk_list,int bk_index,int net_index);
 void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt);
 Gain* Extract_Heap(Gain** gain_list,int* heap_size);
 void Compromized_FM(Gain** gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T);
-
+void insert_adj_bk_component(Block* bk_list,Net* net_list,int net_index,int bk_index);
+void print_adj_bk_component(FILE* fp,Block* bk_list,int bk_index);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

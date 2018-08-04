@@ -86,12 +86,23 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         }
     }
     printf("\n Net components inserted");
+    for(i=0;i<B;i++)
+    {
+        Net_Component* tem=bk_list[i].net_ptr;
+        while(tem!=NULL)
+        {
+            insert_adj_bk_component(bk_list,net_list,tem->net_index,i);
+            tem=tem->right;
+        }
+    }
     fp=fopen("Block_details.txt","w+");
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
         fprintf(fp,"\n Net List=");
         print_net_component(fp,bk_list,i);
+        fprintf(fp,"\nTotal_adj_blocks=%d\t Adjacency Blocks=",bk_list[i].no_of_adj_bk);
+        print_adj_bk_component(fp,bk_list,i);
     }
     fclose(fp);
     Initial_Partition(bk_list,net_list,B,N);

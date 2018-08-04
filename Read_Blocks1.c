@@ -185,3 +185,45 @@ void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int
 
     }
 }
+
+void insert_adj_bk_component(Block* bk_list,Net* net_list,int net_index,int bk_index)
+{
+    Block_Component* adj_tem=net_list[net_index].bk_ptr;
+    while(adj_tem!=NULL)
+    {
+        if(adj_tem->bk_index!=bk_index)
+        {
+            insert_adj_component(bk_list,bk_index,adj_tem->bk_index);
+        }
+        adj_tem=adj_tem->right;
+    }
+}
+void insert_adj_component(Block* bk_list,int bk_index,int adj_bk_index)
+{
+    Block_Component* tem=bk_list[bk_index].adj_bk_ptr;
+    while(tem!=NULL)
+    {
+        if(tem->bk_index==adj_bk_index)
+        {
+            return;
+        }
+        tem=tem->right;
+    }
+    tem=(Block_Component*)calloc(1,sizeof(Block_Component));
+    tem->bk_index=adj_bk_index;
+    tem->right=bk_list[bk_index].adj_bk_ptr;
+    bk_list[bk_index].adj_bk_ptr=tem;
+    bk_list[bk_index].no_of_adj_bk++;
+    return;
+
+}
+void print_adj_bk_component(FILE* fp,Block* bk_list,int bk_index)
+{
+    Block_Component* tem=bk_list[bk_index].adj_bk_ptr;
+    while(tem!=NULL)
+    {
+        fprintf(fp,"\nadj_bk_component=%d",tem->bk_index);
+        tem=tem->right;
+    }
+    return;
+}
