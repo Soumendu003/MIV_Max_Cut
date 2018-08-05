@@ -255,6 +255,7 @@ void insert_net_component(Block* bk_list,int bk_index,int net_index)
     tem->net_index=net_index;
     tem->right=bk_list[bk_index].net_ptr;
     bk_list[bk_index].net_ptr=tem;
+    bk_list[bk_index].bk_degree++;
     return;
 }
 

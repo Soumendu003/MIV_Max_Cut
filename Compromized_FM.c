@@ -1,17 +1,17 @@
 #include"Header1.h"
 void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T)
 {
+    int i,j,ret_index;
     int* heap_size=(int*)calloc(1,sizeof(int));
     heap_size[0]=T*B-1;
-    build_gain_heap(gain_list,heap_size[0]);
-    int i,j,ret_index=Extract_Heap(gain_list,heap_size);
+    build_gain_heap(gain_list,bk_list,heap_size[0]);
+    ret_index=Extract_Heap(gain_list,bk_list,heap_size);
     Gain ele=gain_list[ret_index];
     while(ret_index>=0 && ele.gain_value>0)
     {
         int pre_tier=ele.tier_index;
         if(place_block(tier_list,bk_list,ele.bk_index,ele.tier_index,pre_tier))
         {
-            printf("\nBlock_index=%d   placed in  tier_index=%d",ele.bk_index,ele.tier_index);
             Net_Component* tem=bk_list[ele.bk_index].net_ptr;
             while(tem!=NULL)
             {
@@ -30,9 +30,11 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
                 }
             }
             calculate_gain_list(Cost,gain_list,bk_list,B,T);
-            build_gain_heap(gain_list,heap_size[0]);
+            build_gain_heap(gain_list,bk_list,heap_size[0]);
         }
-        ret_index=Extract_Heap(gain_list,heap_size);
+        else{
+        }
+        ret_index=Extract_Heap(gain_list,bk_list,heap_size);
         ele=gain_list[ret_index];
     }
     printf("\n Placements Done");
@@ -44,7 +46,7 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
     }
     fclose(fp);
 }
-int Extract_Heap(Gain* gain_list,int* heap_size)
+int Extract_Heap(Gain* gain_list,Block* bk_list,int* heap_size)
 {
     if(heap_size[0]<0)
     {
@@ -56,22 +58,22 @@ int Extract_Heap(Gain* gain_list,int* heap_size)
     gain_list[heap_size[0]]=ret_val;
     gain_list[heap_size[0]].current_index=heap_size[0];
     heap_size[0]-=1;
-    Max_Heapify_Gain(gain_list,0,heap_size[0]);
-    return ret_val.current_index;
+    Max_Heapify_Gain(gain_list,bk_list,0,heap_size[0]);
+    return (heap_size[0]+1);
 }
 
 
-void build_gain_heap(Gain* gain_list,int last_index)
+void build_gain_heap(Gain* gain_list,Block* bk_list,int last_index)
 {
     int i;
     for(i=(last_index-1)/2;i>=0;i--)
     {
-        Max_Heapify_Gain(gain_list,i,last_index);
+        Max_Heapify_Gain(gain_list,bk_list,i,last_index);
     }
     return;
 }
 
-void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index)
+void Max_Heapify_Gain(Gain* gain_list,Block* bk_list,int ele_index,int last_index)
 {
     int j;
     j=ele_index*2+1;
@@ -83,6 +85,13 @@ void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index)
             {
                 j=j+1;
             }
+            else if(gain_list[j+1].gain_value==gain_list[j].gain_value)
+            {
+                if(bk_list[gain_list[j+1].bk_index].bk_degree>bk_list[gain_list[j].bk_index].bk_degree)
+                {
+                    j=j+1;
+                }
+            }
         }
         if(gain_list[ele_index].gain_value<gain_list[j].gain_value)
         {
@@ -93,6 +102,18 @@ void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index)
             gain_list[j].current_index=ele_index;
             ele_index=j;
             j=ele_index*2+1;
+        }
+        else if(gain_list[ele_index].gain_value==gain_list[j].gain_value)
+        {
+            if(bk_list[gain_list[ele_index].bk_index].bk_degree<bk_list[gain_list[ele_index].bk_index].bk_degree)
+            {
+                Gain tem=gain_list[ele_index];
+                gain_list[ele_index]=gain_list[j];
+                gain_list[j]=tem;
+                gain_list[ele_index].current_index=j;
+                gain_list[j].current_index=ele_index;
+            }
+            return;
         }
         else{
             return;
