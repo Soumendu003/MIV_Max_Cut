@@ -113,12 +113,15 @@ void default_blocks_placement(Block* bk_list,int B)
     }
 }
 
-int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt)
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
 {
     if(tier_list[tier_cnt].rem_area-bk_list[bk_index].area>=0)
     {
         tier_list[tier_cnt].rem_area-=bk_list[bk_index].area;
-        tier_list[bk_list[bk_index].tier].rem_area+=bk_list[bk_index].area;
+        if(prev_tier>=0)
+        {
+            tier_list[prev_tier].rem_area+=bk_list[bk_index].area;
+        }
         bk_list[bk_index].tier=tier_cnt;
         //update_net_list(net_list,net_index,tier_cnt);
         return 1;
@@ -141,16 +144,16 @@ int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no)
     return Cost;
 }
 
-void calculate_gain_list(int** Cost,Gain** gain_list,Block* bk_list,int B,int T)
+void calculate_gain_list(int** Cost,Gain* gain_list,Block* bk_list,int B,int T)
 {
     int i,j,k=0;
     for(i=0;i<B;i++)
     {
         for(j=0;j<T;j++)
         {
-            gain_list[k]->bk_index=i;
-            gain_list[k]->tier_index=j;
-            gain_list[k]->gain_value=Cost[i][j]-bk_list[i].Current_Cost;
+            gain_list[k].bk_index=i;
+            gain_list[k].tier_index=j;
+            gain_list[k].gain_value=Cost[i][j]-bk_list[i].Current_Cost;
             k++;
         }
     }
@@ -166,7 +169,7 @@ void free_block_component(Block_Component* ele)
     return;
 }
 
-void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt)
+/*void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt)
 {
     int i,j,k=0;
     for(i=0;i<block_cnt;i++)
@@ -184,7 +187,7 @@ void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int
         }
 
     }
-}
+}*/
 
 void insert_adj_bk_component(Block* bk_list,Net* net_list,int net_index,int bk_index)
 {

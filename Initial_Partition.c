@@ -32,7 +32,7 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
             if(bk_list[bk_index].tier==-1)
             {
                 int lock=0;
-                while(!place_block(tier_list,bk_list,bk_index,tier_cnt))   //place_blocks returns 1 if it successfully places the bk at tier_cnt
+                while(!place_block(tier_list,bk_list,bk_index,tier_cnt,bk_list[bk_index].tier))   //place_blocks returns 1 if it successfully places the bk at tier_cnt
                 {
                     lock++;
                     tier_cnt++;
@@ -80,9 +80,5 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
     printf("\n Calling Secondary Partition:");
     Secondary_Partition(net_list,bk_list,tier_list,N,B,T);
     free(tier_list);
-    for(i=0;i<B;i++)
-    {
-        free(bk_list[i].gain_list);
-    }
     free(bk_list);
 }

@@ -86,7 +86,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         }
     }
     printf("\n Net components inserted");
-    for(i=0;i<B;i++)
+    /*for(i=0;i<B;i++)
     {
         Net_Component* tem=bk_list[i].net_ptr;
         while(tem!=NULL)
@@ -94,15 +94,15 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
             insert_adj_bk_component(bk_list,net_list,tem->net_index,i);
             tem=tem->right;
         }
-    }
+    }*/
     fp=fopen("Block_details.txt","w+");
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
         fprintf(fp,"\n Net List=");
         print_net_component(fp,bk_list,i);
-        fprintf(fp,"\nTotal_adj_blocks=%d\t Adjacency Blocks=",bk_list[i].no_of_adj_bk);
-        print_adj_bk_component(fp,bk_list,i);
+        //fprintf(fp,"\nTotal_adj_blocks=%d\t Adjacency Blocks=",bk_list[i].no_of_adj_bk);
+        //print_adj_bk_component(fp,bk_list,i);
     }
     fclose(fp);
     Initial_Partition(bk_list,net_list,B,N);
@@ -150,6 +150,74 @@ void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt)
     if(net_list[net_index].top_tier.tier_index==tier_cnt)
     {
         insert_net_tier_block_components(net_list[net_index].top_tier,bk_index);
+    }
+    if(net_list[net_index].low_tier.tier_index<tier_cnt)
+    {
+        Block_Component* tem=net_list[net_index].low_tier.bk_ptr;
+        Block_Component* pre=NULL;
+        while(tem!=NULL)
+        {
+            if(tem->bk_index==bk_index)
+            {
+                if(pre==NULL)
+                {
+                    if(!(net_list[net_index].gnd || net_list[net_index].pad || net_list[net_index].pwr || net_list[net_index].V))
+                    {
+                        net_list[net_index].low_tier.tier_index=tier_cnt;
+                        net_list[net_index].low_tier.bk_count=0;
+                        free_net_tier_block_components(net_list[net_index].low_tier);
+                        insert_net_tier_block_components(net_list[net_index].low_tier,bk_index);
+                        break;
+                    }
+                    else{
+                        net_list[net_index].low_tier.bk_ptr=NULL;
+                        free(tem);
+                    }
+                }
+                else{
+                    pre->right=tem->right;
+                    free(tem);
+                }
+                net_list[net_index].low_tier.bk_count--;
+                break;
+            }
+            pre=tem;
+            tem=tem->right;
+        }
+    }
+    if(net_list[net_index].top_tier.tier_index>tier_cnt)
+    {
+        Block_Component* tem=net_list[net_index].top_tier.bk_ptr;
+        Block_Component* pre=NULL;
+        while(tem!=NULL)
+        {
+            if(tem->bk_index==bk_index)
+            {
+                if(pre==NULL)
+                {
+                    if(!(net_list[net_index].gnd || net_list[net_index].pad || net_list[net_index].pwr || net_list[net_index].V))
+                    {
+                        net_list[net_index].top_tier.tier_index=tier_cnt;
+                        net_list[net_index].top_tier.bk_count=0;
+                        free_net_tier_block_components(net_list[net_index].top_tier);
+                        insert_net_tier_block_components(net_list[net_index].top_tier,bk_index);
+                        break;
+                    }
+                    else{
+                        net_list[net_index].top_tier.bk_ptr=NULL;
+                        free(tem);
+                    }
+                }
+                else{
+                    pre->right=tem->right;
+                    free(tem);
+                }
+                net_list[net_index].top_tier.bk_count--;
+                break;
+            }
+            pre=tem;
+            tem=tem->right;
+        }
     }
     return;
 }

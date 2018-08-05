@@ -31,7 +31,6 @@ struct block{
     int Current_Cost;
     Block_Component* adj_bk_ptr;
     Net_Component* net_ptr;
-    Gain** gain_list;
 };
 
 typedef struct terminal Terminal;
@@ -88,25 +87,26 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N);
 void default_blocks_placement(Block* bk_list,int B);
 void initialize_net_list(Net* net_list,int N);
 void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt);
-int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt);
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier);
 void claculate_MIV(Net* net_list,int N,int T);
 void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T);
 void print_net_component(FILE* fp,Block* bk_list,int bk_index);
 int cost(Net* net_list,int net_index,int bk_index,int tier_no);
-void calculate_gain_list(int** Cost,Gain** gain_list,Block* bk_list,int B,int T);
+void calculate_gain_list(int** Cost,Gain* gain_list,Block* bk_list,int B,int T);
 int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no);
 void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,int T);
-void Max_Heapify_Gain(Gain** gain_list,int ele_index,int last_index);
-void build_gain_heap(Gain** gain_list,int last_index);
+void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index);
+void build_gain_heap(Gain* gain_list,int last_index);
 void free_net_tier_block_components(Net_Tier_Component ele);
 void free_block_component(Block_Component* ele);
 void insert_net_tier_block_components(Net_Tier_Component ele,int bk_index);
 void insert_net_component(Block* bk_list,int bk_index,int net_index);
-void create_and_link_gain_list(Gain** gain_list,Block* bk_list,int tier_size,int block_cnt);
-Gain* Extract_Heap(Gain** gain_list,int* heap_size);
-void Compromized_FM(Gain** gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T);
+void create_and_link_gain_list(Gain* gain_list,Block* bk_list,int tier_size,int block_cnt);
+int Extract_Heap(Gain* gain_list,int* heap_size);
+void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T);
 void insert_adj_bk_component(Block* bk_list,Net* net_list,int net_index,int bk_index);
 void print_adj_bk_component(FILE* fp,Block* bk_list,int bk_index);
+void insert_adj_component(Block* bk_list,int bk_index,int adj_bk_index);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)
