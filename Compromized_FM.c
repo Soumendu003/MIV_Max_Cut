@@ -11,6 +11,7 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
         int pre_tier=ele.tier_index;
         if(place_block(tier_list,bk_list,ele.bk_index,ele.tier_index,pre_tier))
         {
+            printf("\nBlock_index=%d   placed in  tier_index=%d",ele.bk_index,ele.tier_index);
             Net_Component* tem=bk_list[ele.bk_index].net_ptr;
             while(tem!=NULL)
             {
@@ -28,9 +29,20 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
                     Cost[i][j]=calculate_block_cost(bk_list,net_list,i,j);
                 }
             }
+            calculate_gain_list(Cost,gain_list,bk_list,B,T);
+            build_gain_heap(gain_list,heap_size[0]);
         }
-
+        ret_index=Extract_Heap(gain_list,heap_size);
+        ele=gain_list[ret_index];
     }
+    printf("\n Placements Done");
+    claculate_MIV(net_list,N,T);
+    FILE* fp=fopen("Final_Block_Placement.txt","w");
+    for(i=0;i<B;i++)
+    {
+        fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);
+    }
+    fclose(fp);
 }
 int Extract_Heap(Gain* gain_list,int* heap_size)
 {
@@ -51,8 +63,8 @@ int Extract_Heap(Gain* gain_list,int* heap_size)
 
 void build_gain_heap(Gain* gain_list,int last_index)
 {
-    int i=(last_index-1)/2;
-    for(i;i>=0;i--)
+    int i;
+    for(i=(last_index-1)/2;i>=0;i--)
     {
         Max_Heapify_Gain(gain_list,i,last_index);
     }
@@ -81,6 +93,9 @@ void Max_Heapify_Gain(Gain* gain_list,int ele_index,int last_index)
             gain_list[j].current_index=ele_index;
             ele_index=j;
             j=ele_index*2+1;
+        }
+        else{
+            return;
         }
     }
 }

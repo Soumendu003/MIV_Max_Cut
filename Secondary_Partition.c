@@ -33,6 +33,7 @@ void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,
         }
     }
     fclose(fp);
+    Compromized_FM(Cost,gain_list,bk_list,net_list,tr_list,B,N,T);
     free(gain_list);
     for(i=0;i<B;i++)
     {
