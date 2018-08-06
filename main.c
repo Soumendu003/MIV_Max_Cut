@@ -1,7 +1,7 @@
 #include"Header1.h"
 int main()
 {
-    FILE* fp1=fopen("Blocks1.txt","r");
+    FILE* fp1=fopen("ami49.blocks","r");
     if(fp1!=NULL)
     {
         printf("\n File open successful");

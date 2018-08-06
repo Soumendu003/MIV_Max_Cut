@@ -24,6 +24,7 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
     cnt=0;
     tier_cnt=0;
     flag=0;
+    clock_t start_time=clock();
     for(i=0;i<N;i++)
     {
         Block_Component* tem=net_list[i].bk_ptr;
@@ -61,15 +62,10 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
             break;
         }
     }
+    clock_t end_time=clock();
     printf("\n Initial Partitioning Done");
-    FILE* fp=fopen("Block_initial_placement.txt","w+");
-    for(i=0;i<B;i++)
-    {
-        fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);
-    }
-    fclose(fp);
     custom_update_net_list(net_list,bk_list,N,B,T);
-    fp=fopen("Net_list_after_initial_partition.txt","w+");
+    FILE* fp=fopen("Net_list_after_initial_partition.txt","w+");
     for(i=0;i<N;i++)
     {
         fprintf(fp,"\nThe Net Degree=%d\t Number of Blocks=%d",net_list[i].degree,net_list[i].no_of_bk);
@@ -77,7 +73,15 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
         fprintf(fp,"\nTop_tier=%d\t Low_Tier=%d",net_list[i].top_tier.tier_index,net_list[i].low_tier.tier_index);
     }
     fclose(fp);
-    claculate_MIV(net_list,N,T);
+    fp=fopen("Block_initial_placement.txt","w+");
+    double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
+    fprintf(fp,"Time Taken to execute Initial Partition:%0.6ld",time_taken);
+    fprintf(fp,"\nTotal Number of MIV=%d",claculate_MIV(net_list,N,T));
+    for(i=0;i<B;i++)
+    {
+        fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);
+    }
+    fclose(fp);
     printf("\n Calling Secondary Partition:");
     Secondary_Partition(net_list,bk_list,tier_list,N,B,T);
     free(tier_list);

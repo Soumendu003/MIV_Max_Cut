@@ -3,6 +3,7 @@
 #include<stdbool.h>
 #include<string.h>
 #include<limits.h>
+#include<time.h>
 typedef struct net_com Net_Component;
 struct net_com{
     int net_index;
@@ -91,7 +92,7 @@ void default_blocks_placement(Block* bk_list,int B);
 void initialize_net_list(Net* net_list,int N);
 void update_net_list(Net* net_list,Block* bk_list,int net_index,int bk_index,int tier_cnt,int pre_tier);
 int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier);
-void claculate_MIV(Net* net_list,int N,int T);
+int claculate_MIV(Net* net_list,int N,int T);
 void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T);
 void print_net_component(FILE* fp,Block* bk_list,int bk_index);
 int cost(Net* net_list,int net_index,int bk_index,int tier_no);

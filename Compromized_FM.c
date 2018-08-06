@@ -7,6 +7,7 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
     build_gain_heap(gain_list,bk_list,heap_size[0]);
     ret_index=Extract_Heap(gain_list,bk_list,heap_size);
     Gain ele=gain_list[ret_index];
+    clock_t start_time=clock();
     while(ret_index>=0 && ele.gain_value>0)
     {
         int pre_tier=ele.tier_index;
@@ -38,9 +39,12 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
         ret_index=Extract_Heap(gain_list,bk_list,heap_size);
         ele=gain_list[ret_index];
     }
+    clock_t end_time=clock();
     printf("\n Placements Done");
-    claculate_MIV(net_list,N,T);
     FILE* fp=fopen("Final_Block_Placement.txt","w");
+    double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
+    fprintf(fp,"Time Taken to execute Compromized FM:%0.6ld",time_taken);
+    fprintf(fp,"\nTotal Number of MIV=%d",claculate_MIV(net_list,N,T));
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);

@@ -1,4 +1,5 @@
-
+Time Taken to execute Initial Partition:000000
+Total Number of MIV=103
  Block_Name=1	 Block_Index=0	 Block_Tier=0
  Block_Name=10a	 Block_Index=1	 Block_Tier=1
  Block_Name=10b	 Block_Index=2	 Block_Tier=2
