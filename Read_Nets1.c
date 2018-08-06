@@ -126,8 +126,77 @@ void initialize_net_list(Net* net_list,int N)
         net_list[i].top_tier.tier_index=-1;
     }
 }
+void update_net_list(Net* net_list,Block* bk_list,int net_index,int bk_index,int tier_cnt,int pre_tier)
+{
+    if(net_list[net_index].low_tier.tier_index>tier_cnt)
+    {
+        net_list[net_index].low_tier.tier_index=tier_cnt;
+        net_list[net_index].low_tier.bk_count=1;
+    }
+    if(net_list[net_index].top_tier.tier_index<tier_cnt)
+    {
+        net_list[net_index].top_tier.tier_index=tier_cnt;
+        net_list[net_index].top_tier.bk_count=1;
+    }
+    if(net_list[net_index].low_tier.tier_index==tier_cnt)
+    {
+        net_list[net_index].low_tier.bk_count++;
+    }
+    if(net_list[net_index].top_tier.tier_index==tier_cnt)
+    {
+        net_list[net_index].top_tier.bk_count++;
+    }
+    if(net_list[net_index].low_tier.tier_index<tier_cnt)
+    {
+        if(!(net_list[net_index].gnd || net_list[net_index].pad || net_list[net_index].pwr || net_list[net_index].V))
+        {
+            if(net_list[net_index].low_tier.bk_count==1 && net_list[net_index].low_tier.tier_index==pre_tier)
+            {
+                Block_Component* tem=net_list[net_index].bk_ptr;
+                int least_tier;
+                if(tem!=NULL)
+                {
+                    least_tier=bk_list[tem->bk_index].tier;
+                    while(tem!=NULL)
+                    {
+                        if(bk_list[tem->bk_index].tier<least_tier)
+                        {
+                            least_tier=bk_list[tem->bk_index].tier;
+                        }
+                        tem=tem->right;
+                    }
+                }
+                net_list[net_index].low_tier.tier_index=least_tier;
+                net_list[net_index].low_tier.bk_count=1;
+            }
+        }
+    }
+    if(net_list[net_index].top_tier.tier_index>tier_cnt)
+    {
+        if(net_list[net_index].top_tier.bk_count==1 && net_list[net_index].top_tier.tier_index==pre_tier)
+        {
+            Block_Component* tem=net_list[net_index].bk_ptr;
+            int highest_tier;
+            if(tem!=NULL)
+            {
+                highest_tier=bk_list[tem->bk_index].tier;
+                while(tem!=NULL)
+                {
+                    if(bk_list[tem->bk_index].tier>highest_tier)
+                    {
+                        highest_tier=bk_list[tem->bk_index].tier;
+                    }
+                    tem=tem->right;
+                }
+            }
+            net_list[net_index].top_tier.tier_index=highest_tier;
+            net_list[net_index].top_tier.bk_count=1;
+        }
+    }
 
-void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt)
+}
+
+/*void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt)
 {
     if(net_list[net_index].low_tier.tier_index>tier_cnt)
     {
@@ -220,7 +289,7 @@ void update_net_list(Net* net_list,int net_index,int bk_index,int tier_cnt)
         }
     }
     return;
-}
+}*/
 
 void claculate_MIV(Net* net_list,int N,int T)
 {
@@ -242,7 +311,7 @@ void custom_update_net_list(Net* net_list,Block* bk_list,int N,int B,int T)
             Block_Component* tem=net_list[i].bk_ptr;
             while(tem!=NULL)
             {
-                update_net_list(net_list,i,tem->bk_index,bk_list[tem->bk_index].tier);
+                update_net_list(net_list,bk_list,i,tem->bk_index,bk_list[tem->bk_index].tier,-1);  //Before Custom Update all the previous tier of the blocks was by default -1.
                 tem=tem->right;
             }
         }
@@ -293,7 +362,7 @@ int cost(Net* net_list,int net_index,int bk_index,int tier_no)
     }
     if(net_list[net_index].low_tier.tier_index<tier_no)
     {
-        if(net_list[net_index].low_tier.bk_count==1)
+        if(!(net_list[net_index].gnd || net_list[net_index].pad || net_list[net_index].pwr || net_list[net_index].V) && net_list[net_index].low_tier.bk_count==1)
         {
             if(net_list[net_index].low_tier.bk_ptr->bk_index==bk_index)
             {

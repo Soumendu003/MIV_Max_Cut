@@ -15,7 +15,7 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
             Net_Component* tem=bk_list[ele.bk_index].net_ptr;
             while(tem!=NULL)
             {
-                update_net_list(net_list,tem->net_index,ele.bk_index,ele.tier_index);
+                update_net_list(net_list,bk_list,tem->net_index,ele.bk_index,ele.tier_index,pre_tier);
                 tem=tem->right;
             }
             for(i=0;i<B;i++)
@@ -30,6 +30,7 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
                 }
             }
             calculate_gain_list(Cost,gain_list,bk_list,B,T);
+            heap_size[0]=T*B-1;
             build_gain_heap(gain_list,bk_list,heap_size[0]);
         }
         else{

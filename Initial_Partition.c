@@ -9,13 +9,14 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
     float relax;
     printf("\n Enter area relaxation percentage:");
     scanf("%f",&relax);
-    avg_area=avg_area*(1+relax);
     printf("\n Avg area for each tier=%lf",avg_area);
     Tier* tier_list=(Tier*)calloc(T,sizeof(Tier));
     //Initializes Tier Components
     for(i=0;i<T;i++)
     {
-        tier_list[i].rem_area=avg_area;
+        tier_list[i].area_consumed=0;
+        tier_list[i].max_area=avg_area*(1+relax);
+        tier_list[i].min_area=avg_area*(1-relax);
         tier_list[i].tot_bk=0;
     }
     initialize_net_list(net_list,N);

@@ -113,17 +113,41 @@ void default_blocks_placement(Block* bk_list,int B)
     }
 }
 
-int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
+/*int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
 {
-    if(tier_list[tier_cnt].rem_area-bk_list[bk_index].area>=0)
+    if(tier_list[tier_cnt].area_consumed+bk_list[bk_index].area<=tier_list[tier_cnt].max_area && prev_tier>=0 )
     {
-        tier_list[tier_cnt].rem_area-=bk_list[bk_index].area;
-        if(prev_tier>=0)
-        {
-            tier_list[prev_tier].rem_area+=bk_list[bk_index].area;
-        }
+        tier_list[tier_cnt].area_consumed+=bk_list[bk_index].area;
+        tier_list[prev_tier].area_consumed-=bk_list[bk_index].area;
         bk_list[bk_index].tier=tier_cnt;
         //update_net_list(net_list,net_index,tier_cnt);
+        return 1;
+    }
+    else if(prev_tier<0)
+    {
+        tier_list[tier_cnt].area_consumed+=bk_list[bk_index].area;
+        bk_list[bk_index].tier=tier_cnt;
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}*/
+
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
+{
+    if(tier_list[tier_cnt].area_consumed+bk_list[bk_index].area<=tier_list[tier_cnt].max_area && prev_tier>=0 && tier_list[prev_tier].area_consumed-bk_list[bk_index].area>=tier_list[tier_cnt].min_area)
+    {
+        tier_list[tier_cnt].area_consumed+=bk_list[bk_index].area;
+        tier_list[prev_tier].area_consumed-=bk_list[bk_index].area;
+        bk_list[bk_index].tier=tier_cnt;
+        //update_net_list(net_list,net_index,tier_cnt);
+        return 1;
+    }
+    else if(prev_tier<0)
+    {
+        tier_list[tier_cnt].area_consumed+=bk_list[bk_index].area;
+        bk_list[bk_index].tier=tier_cnt;
         return 1;
     }
     else{
