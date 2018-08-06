@@ -1,5 +1,5 @@
 #include"Header1.h"
-void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T)
+void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T)
 {
     int i,j,ret_index;
     int* heap_size=(int*)calloc(1,sizeof(int));
@@ -43,8 +43,8 @@ void Compromized_FM(int** Cost,Gain* gain_list,Block* bk_list,Net* net_list,Tier
     printf("\n Placements Done");
     FILE* fp=fopen("Final_Block_Placement.txt","w");
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
-    fprintf(fp,"Time Taken to execute Compromized FM:%0.6ld",time_taken);
-    fprintf(fp,"\nTotal Number of MIV=%d",claculate_MIV(net_list,N,T));
+    fprintf(fp1,"\nTime Taken to execute Compromized FM:%0.6lf",time_taken);
+    fprintf(fp1,"\nAt End Total Number of MIV=%d",claculate_MIV(net_list,N,T));
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);

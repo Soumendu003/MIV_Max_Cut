@@ -1,11 +1,5 @@
-UCLA nets 1.0
-# Created      : Thu Nov 09 18:23:24 PST 2000
-# User         : huaizhi@olympus
-# Platform     : SunOS 5.6 sparc
-
-NumNets : 123
-NumPins : 522
-
+123
+522
 NetDegree : 34
 # The pad/pins in this net are of type "PWR"
 GND@1 B

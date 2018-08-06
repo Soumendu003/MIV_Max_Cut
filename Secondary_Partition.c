@@ -1,5 +1,5 @@
 #include"Header1.h"
-void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,int T)
+void Secondary_Partition(FILE* fp1,Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,int T)
 {
     int i,j,k;
     int** Cost=(int**)calloc(B,sizeof(int*));
@@ -33,7 +33,7 @@ void Secondary_Partition(Net* net_list,Block* bk_list,Tier* tr_list,int N,int B,
         }
     }
     fclose(fp);
-    Compromized_FM(Cost,gain_list,bk_list,net_list,tr_list,B,N,T);
+    Compromized_FM(fp1,Cost,gain_list,bk_list,net_list,tr_list,B,N,T);
     free(gain_list);
     for(i=0;i<B;i++)
     {

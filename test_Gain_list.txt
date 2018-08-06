@@ -3,131 +3,197 @@ For Block 0 :
 		Tier=0	Gain=0
 		Tier=1	Gain=0
 		Tier=2	Gain=0
+		Tier=3	Gain=0
+		Tier=4	Gain=3
 For Block 1 :
-		Tier=0	Gain=3
+		Tier=0	Gain=4
 		Tier=1	Gain=0
-		Tier=2	Gain=3
+		Tier=2	Gain=2
+		Tier=3	Gain=7
+		Tier=4	Gain=13
 For Block 2 :
-		Tier=0	Gain=1
-		Tier=1	Gain=0
+		Tier=0	Gain=3
+		Tier=1	Gain=1
 		Tier=2	Gain=0
+		Tier=3	Gain=2
+		Tier=4	Gain=5
 For Block 3 :
-		Tier=0	Gain=0
-		Tier=1	Gain=0
+		Tier=0	Gain=6
+		Tier=1	Gain=3
 		Tier=2	Gain=1
+		Tier=3	Gain=0
+		Tier=4	Gain=2
 For Block 4 :
-		Tier=0	Gain=1
-		Tier=1	Gain=0
-		Tier=2	Gain=1
+		Tier=0	Gain=4
+		Tier=1	Gain=3
+		Tier=2	Gain=2
+		Tier=3	Gain=1
+		Tier=4	Gain=0
 For Block 5 :
 		Tier=0	Gain=0
 		Tier=1	Gain=0
 		Tier=2	Gain=0
+		Tier=3	Gain=0
+		Tier=4	Gain=0
 For Block 6 :
-		Tier=0	Gain=0
-		Tier=1	Gain=3
-		Tier=2	Gain=6
+		Tier=0	Gain=3
+		Tier=1	Gain=0
+		Tier=2	Gain=3
+		Tier=3	Gain=6
+		Tier=4	Gain=9
 For Block 7 :
 		Tier=0	Gain=2
-		Tier=1	Gain=0
-		Tier=2	Gain=1
+		Tier=1	Gain=1
+		Tier=2	Gain=0
+		Tier=3	Gain=1
+		Tier=4	Gain=3
 For Block 8 :
-		Tier=0	Gain=1
-		Tier=1	Gain=0
-		Tier=2	Gain=0
-For Block 9 :
-		Tier=0	Gain=0
-		Tier=1	Gain=1
+		Tier=0	Gain=12
+		Tier=1	Gain=7
 		Tier=2	Gain=2
-For Block 10 :
-		Tier=0	Gain=6
-		Tier=1	Gain=0
-		Tier=2	Gain=4
-For Block 11 :
-		Tier=0	Gain=11
+		Tier=3	Gain=0
+		Tier=4	Gain=3
+For Block 9 :
+		Tier=0	Gain=9
 		Tier=1	Gain=5
-		Tier=2	Gain=0
-For Block 12 :
+		Tier=2	Gain=2
+		Tier=3	Gain=0
+		Tier=4	Gain=0
+For Block 10 :
 		Tier=0	Gain=0
-		Tier=1	Gain=8
-		Tier=2	Gain=18
-For Block 13 :
-		Tier=0	Gain=0
+		Tier=1	Gain=4
+		Tier=2	Gain=9
+		Tier=3	Gain=15
+		Tier=4	Gain=21
+For Block 11 :
+		Tier=0	Gain=7
 		Tier=1	Gain=0
-		Tier=2	Gain=7
+		Tier=2	Gain=6
+		Tier=3	Gain=13
+		Tier=4	Gain=20
+For Block 12 :
+		Tier=0	Gain=25
+		Tier=1	Gain=11
+		Tier=2	Gain=0
+		Tier=3	Gain=7
+		Tier=4	Gain=19
+For Block 13 :
+		Tier=0	Gain=12
+		Tier=1	Gain=8
+		Tier=2	Gain=4
+		Tier=3	Gain=0
+		Tier=4	Gain=7
 For Block 14 :
-		Tier=0	Gain=2
+		Tier=0	Gain=4
 		Tier=1	Gain=1
 		Tier=2	Gain=0
+		Tier=3	Gain=0
+		Tier=4	Gain=0
 For Block 15 :
 		Tier=0	Gain=0
 		Tier=1	Gain=2
-		Tier=2	Gain=7
+		Tier=2	Gain=4
+		Tier=3	Gain=6
+		Tier=4	Gain=11
 For Block 16 :
-		Tier=0	Gain=8
+		Tier=0	Gain=10
 		Tier=1	Gain=0
-		Tier=2	Gain=10
+		Tier=2	Gain=4
+		Tier=3	Gain=8
+		Tier=4	Gain=18
 For Block 17 :
-		Tier=0	Gain=4
-		Tier=1	Gain=1
-		Tier=2	Gain=0
-For Block 18 :
-		Tier=0	Gain=0
-		Tier=1	Gain=2
-		Tier=2	Gain=9
-For Block 19 :
-		Tier=0	Gain=1
-		Tier=1	Gain=0
-		Tier=2	Gain=1
-For Block 20 :
-		Tier=0	Gain=5
-		Tier=1	Gain=2
-		Tier=2	Gain=0
-For Block 21 :
-		Tier=0	Gain=0
-		Tier=1	Gain=3
-		Tier=2	Gain=8
-For Block 22 :
-		Tier=0	Gain=4
-		Tier=1	Gain=0
-		Tier=2	Gain=1
-For Block 23 :
-		Tier=0	Gain=5
-		Tier=1	Gain=1
-		Tier=2	Gain=0
-For Block 24 :
-		Tier=0	Gain=0
-		Tier=1	Gain=0
-		Tier=2	Gain=2
-For Block 25 :
-		Tier=0	Gain=5
-		Tier=1	Gain=0
-		Tier=2	Gain=8
-For Block 26 :
 		Tier=0	Gain=6
 		Tier=1	Gain=3
 		Tier=2	Gain=0
-For Block 27 :
-		Tier=0	Gain=0
-		Tier=1	Gain=7
-		Tier=2	Gain=28
-For Block 28 :
+		Tier=3	Gain=2
+		Tier=4	Gain=5
+For Block 18 :
+		Tier=0	Gain=17
+		Tier=1	Gain=11
+		Tier=2	Gain=5
+		Tier=3	Gain=0
+		Tier=4	Gain=7
+For Block 19 :
 		Tier=0	Gain=4
+		Tier=1	Gain=3
+		Tier=2	Gain=2
+		Tier=3	Gain=1
+		Tier=4	Gain=0
+For Block 20 :
+		Tier=0	Gain=0
+		Tier=1	Gain=3
+		Tier=2	Gain=8
+		Tier=3	Gain=13
+		Tier=4	Gain=18
+For Block 21 :
+		Tier=0	Gain=5
 		Tier=1	Gain=0
-		Tier=2	Gain=20
-For Block 29 :
-		Tier=0	Gain=1
+		Tier=2	Gain=6
+		Tier=3	Gain=13
+		Tier=4	Gain=20
+For Block 22 :
+		Tier=0	Gain=9
+		Tier=1	Gain=4
+		Tier=2	Gain=0
+		Tier=3	Gain=2
+		Tier=4	Gain=7
+For Block 23 :
+		Tier=0	Gain=9
+		Tier=1	Gain=5
+		Tier=2	Gain=1
+		Tier=3	Gain=0
+		Tier=4	Gain=7
+For Block 24 :
+		Tier=0	Gain=0
 		Tier=1	Gain=0
 		Tier=2	Gain=0
+		Tier=3	Gain=0
+		Tier=4	Gain=0
+For Block 25 :
+		Tier=0	Gain=0
+		Tier=1	Gain=5
+		Tier=2	Gain=12
+		Tier=3	Gain=19
+		Tier=4	Gain=26
+For Block 26 :
+		Tier=0	Gain=3
+		Tier=1	Gain=0
+		Tier=2	Gain=4
+		Tier=3	Gain=8
+		Tier=4	Gain=12
+For Block 27 :
+		Tier=0	Gain=43
+		Tier=1	Gain=21
+		Tier=2	Gain=0
+		Tier=3	Gain=7
+		Tier=4	Gain=29
+For Block 28 :
+		Tier=0	Gain=34
+		Tier=1	Gain=14
+		Tier=2	Gain=0
+		Tier=3	Gain=0
+		Tier=4	Gain=20
+For Block 29 :
+		Tier=0	Gain=4
+		Tier=1	Gain=2
+		Tier=2	Gain=1
+		Tier=3	Gain=0
+		Tier=4	Gain=0
 For Block 30 :
 		Tier=0	Gain=0
 		Tier=1	Gain=0
 		Tier=2	Gain=2
+		Tier=3	Gain=6
+		Tier=4	Gain=10
 For Block 31 :
 		Tier=0	Gain=4
 		Tier=1	Gain=0
 		Tier=2	Gain=3
+		Tier=3	Gain=7
+		Tier=4	Gain=11
 For Block 32 :
 		Tier=0	Gain=2
 		Tier=1	Gain=0
 		Tier=2	Gain=0
+		Tier=3	Gain=3
+		Tier=4	Gain=6

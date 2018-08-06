@@ -43,7 +43,11 @@ void Read_Blocks(FILE* fp1)
     {
         bk_list[i].index=i;
     }
-    fp1=fopen("ami49.nets","r");
+    fp1=fopen("ami33.nets","r");
+    if(fp1!=NULL)
+    {
+        printf("\nnet file opemed");
+    }
     Read_Nets(fp1,bk_list,B);
     fclose(fp1);
     return;
@@ -110,10 +114,11 @@ void default_blocks_placement(Block* bk_list,int B)
     for(i=0;i<B;i++)
     {
         bk_list[i].tier=-1;
+        bk_list[i].Current_Cost=0;
     }
 }
 
-int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
+/*int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
 {
     if(tier_list[tier_cnt].area_consumed+bk_list[bk_index].area<=tier_list[tier_cnt].max_area && prev_tier>=0 )
     {
@@ -132,9 +137,9 @@ int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int pre
     else{
         return 0;
     }
-}
+}*/
 
-/*int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
 {
     if(tier_list[tier_cnt].area_consumed+bk_list[bk_index].area<=tier_list[tier_cnt].max_area && prev_tier>=0 && tier_list[prev_tier].area_consumed-bk_list[bk_index].area>=tier_list[tier_cnt].min_area)
     {
@@ -153,7 +158,7 @@ int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int pre
     else{
         return 0;
     }
-}*/
+}
 
 int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no)
 {

@@ -1,15 +1,16 @@
 #include"Header1.h"
-void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
+void Initial_Partition(FILE* fp1,Block* bk_list,Net* net_list,int B,int N,int T,float relax)
 {
-    int i,T,cnt,flag,tier_cnt;
-    printf("\n Enter Number of Tiers:");
-    scanf("%d",&T);
+    int i,cnt,flag,tier_cnt;
     double avg_area,tot_area=Calculate_Total_Area(bk_list,B);
     avg_area=tot_area/T;
-    float relax;
-    printf("\n Enter area relaxation percentage:");
-    scanf("%f",&relax);
-    printf("\n Avg area for each tier=%lf",avg_area);
+    fprintf(fp1,"\n***********************************************************************************************");
+    fprintf(fp1,"\n");
+    fprintf(fp1,"\n***********************************************************************************************");
+    fprintf(fp1,"\n No of Tiers=%d\t Relaxation Percentage=%f",T,relax);
+    fprintf(fp1,"\n Avg area for each tier=%lf",avg_area);
+    fprintf(fp1,"\n Max area for each tier=%lf",avg_area*(1+relax));
+    fprintf(fp1,"\n Min area for each tier=%lf",avg_area*(1-relax));
     Tier* tier_list=(Tier*)calloc(T,sizeof(Tier));
     //Initializes Tier Components
     for(i=0;i<T;i++)
@@ -75,15 +76,15 @@ void Initial_Partition(Block* bk_list,Net* net_list,int B,int N)
     fclose(fp);
     fp=fopen("Block_initial_placement.txt","w+");
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
-    fprintf(fp,"Time Taken to execute Initial Partition:%0.6ld",time_taken);
-    fprintf(fp,"\nTotal Number of MIV=%d",claculate_MIV(net_list,N,T));
+    fprintf(fp1,"\nTime Taken to execute Initial Partition:%0.6lf",time_taken);
+    fprintf(fp1,"\nAfter Initial Partition Total Number of MIV=%d",claculate_MIV(net_list,N,T));
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);
     }
     fclose(fp);
     printf("\n Calling Secondary Partition:");
-    Secondary_Partition(net_list,bk_list,tier_list,N,B,T);
+    Secondary_Partition(fp1,net_list,bk_list,tier_list,N,B,T);
     free(tier_list);
-    free(bk_list);
+
 }

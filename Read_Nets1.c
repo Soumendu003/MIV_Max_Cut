@@ -64,12 +64,17 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     }
     printf("\n Reading Done");
     FILE* fp=fopen("Net_Details.txt","w");
+    if(fp!=NULL)
+    {
+        printf("\n Net_Details file opened");
+    }
     for(j=0;j<N;j++)
     {
         fprintf(fp,"\nThe Net Degree=%d\t Number of Blocks=%d",net_list[j].degree,net_list[j].no_of_bk);
         fprintf(fp,"\nGND pin=%d\tPOW pin=%d",net_list[j].gnd,net_list[j].pwr);
         fprintf(fp,"\n\tBlock components are:");
         print_bk_component(fp,net_list,j);
+        printf("\n Returned from print bk component");
         //printf("\n\tTerminal components are:");
         //print_ter_component(net_list[j].ter_ptr);
 
@@ -105,10 +110,46 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         //print_adj_bk_component(fp,bk_list,i);
     }
     fclose(fp);
-    Initial_Partition(bk_list,net_list,B,N);
+    float relaxation=0.05;
+    fp=fopen("ami33_output_with_min_restriction.txt","w");
+    for(j=2;j<=5;j++)
+    {
+        for(i=1;i<=5;i++)
+        {
+            Initial_Partition(fp,bk_list,net_list,B,N,j,i*relaxation);
+        }
+    }
+    for(i=0;i<N;i++)
+    {
+        free_block_components(net_list[i]);
+
+    }
+    for(i=0;i<B;i++)
+    {
+        free_net_components(bk_list[i]);
+    }
     free(net_list);
+    free(bk_list);
     return;
 
+}
+
+void free_net_components(Block ele)
+{
+    Net_Component* tem=ele.net_ptr;
+    if(tem!=NULL)
+    {
+        free_net_component(tem);
+    }
+}
+void free_net_component(Net_Component* ele)
+{
+    if(ele->right!=NULL)
+    {
+        free_net_component(ele->right);
+    }
+    free(ele);
+    return;
 }
 
 void initialize_net_list(Net* net_list,int N)
@@ -119,11 +160,14 @@ void initialize_net_list(Net* net_list,int N)
         if(net_list[i].gnd || net_list[i].pwr || net_list[i].V)
         {
             net_list[i].low_tier.tier_index=0;
+            net_list[i].low_tier.bk_count=0;
         }
         else{
             net_list[i].low_tier.tier_index=INT_MAX;
+            net_list[i].low_tier.bk_count=0;
         }
         net_list[i].top_tier.tier_index=-1;
+        net_list[i].top_tier.bk_count=0;
     }
 }
 void update_net_list(Net* net_list,Block* bk_list,int net_index,int bk_index,int tier_cnt,int pre_tier)
@@ -374,7 +418,7 @@ int cost(Net* net_list,int net_index,int bk_index,int tier_no)
 
 }
 
-void free_net_tier_block_components(Net_Tier_Component ele)
+void free_block_components(Net ele)
 {
     Block_Component* tem=ele.bk_ptr;
     if(tem!=NULL)

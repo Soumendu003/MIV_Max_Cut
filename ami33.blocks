@@ -1,10 +1,5 @@
-UCSC blocks  1.0
-
-
-NumSoftRectangularBlocks : 	33
-NumHardRectilinearBlocks : 	0
-NumTerminals : 	42
-
+33
+42
 bk1 softrectangular 44688	2.52632	2.52632
 bk10a softrectangular 44982	3.17647	3.17647
 bk10b softrectangular 22540	1.15	1.15
