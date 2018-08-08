@@ -110,7 +110,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     }
     fclose(fp);
     float relaxation=0.05;
-    fp=fopen("ami33_output.txt","w");
+    fp=fopen("ami33_output_with_min_restriction.txt","w");
     for(j=2;j<=5;j++)
     {
         for(i=1;i<=5;i++)

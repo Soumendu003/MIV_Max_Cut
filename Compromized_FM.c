@@ -46,12 +46,12 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
     fprintf(fp1,"\nAt End Total Number of MIV after Compromised FM=%d",claculate_MIV(net_list,N,T));
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Compromized FM:%0.6lf",time_taken);
-    start_time=clock();
+    /*start_time=clock();
     Min_area_coverage(bk_list,net_list,tier_list,B,N,T);
     end_time=clock();
     fprintf(fp1,"\nAt End Total Number of MIV after Min area coverage=%d",claculate_MIV(net_list,N,T));
     time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
-    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);
+    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);*/
     FILE* fp=fopen("Final_Block_Placement.txt","w");
     for(i=0;i<B;i++)
     {
@@ -63,13 +63,16 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
     {
         tot_area+=bk_list[i].area;
     }
-    fprintf(fp1,"\n Total Area of all the blocks =%lf\n",tot_area);
+    fprintf(fp1,"\n\n Total Area of all the blocks =%lf\n",tot_area);
     tot_area=0;
+    double divergence=0,avg_area=(tier_list[0].max_area+tier_list[0].min_area)/2;
     for(i=0;i<T;i++)
     {
         tot_area+=tier_list[i].area_consumed;
+        divergence=(tier_list[i].area_consumed-avg_area)/avg_area;
+        fprintf(fp1,"\n Divergence of tier area from avg area=%lf",divergence);
     }
-    fprintf(fp1,"\nTotal area of tiers=%lf\n",tot_area);
+    fprintf(fp1,"\n\nTotal area of tiers=%lf\n",tot_area);
 }
 int Extract_Heap(Gain* gain_list,Block* bk_list,int* heap_size)
 {
