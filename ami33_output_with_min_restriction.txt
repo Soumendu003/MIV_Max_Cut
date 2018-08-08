@@ -41,7 +41,7 @@ At End Total Number of MIV=99
  Min area for each tier=462579.598277
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=64
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.001000
 At End Total Number of MIV=117
 ***********************************************************************************************
 
@@ -85,7 +85,7 @@ At End Total Number of MIV=115
  Min area for each tier=327660.547702
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=103
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.003000
 At End Total Number of MIV=169
 ***********************************************************************************************
 
@@ -140,7 +140,7 @@ At End Total Number of MIV=182
  Min area for each tier=245745.410777
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.003000
 At End Total Number of MIV=210
 ***********************************************************************************************
 
@@ -151,7 +151,7 @@ At End Total Number of MIV=210
  Min area for each tier=231289.799138
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.001000
 At End Total Number of MIV=275
 ***********************************************************************************************
 
@@ -162,7 +162,7 @@ At End Total Number of MIV=275
  Min area for each tier=216834.187500
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.004000
 At End Total Number of MIV=315
 ***********************************************************************************************
 
@@ -184,7 +184,7 @@ At End Total Number of MIV=148
  Min area for each tier=208160.819655
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.001000
 At End Total Number of MIV=159
 ***********************************************************************************************
 
@@ -195,7 +195,7 @@ At End Total Number of MIV=159
  Min area for each tier=196596.328621
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.001000
 At End Total Number of MIV=183
 ***********************************************************************************************
 
@@ -206,7 +206,7 @@ At End Total Number of MIV=183
  Min area for each tier=185031.839311
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.003000
 At End Total Number of MIV=204
 ***********************************************************************************************
 
@@ -217,5 +217,5 @@ At End Total Number of MIV=204
  Min area for each tier=173467.350000
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
-Time Taken to execute Compromized FM:0.000000
+Time Taken to execute Compromized FM:0.001000
 At End Total Number of MIV=312

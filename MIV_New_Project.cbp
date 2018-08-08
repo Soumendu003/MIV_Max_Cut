@@ -49,6 +49,12 @@
 		<Unit filename="Secondary_Partition.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="Simulated_Annelation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Simulated_Initialize.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="ami33.blocks" />
 		<Unit filename="ami33.nets" />
 		<Unit filename="ami49.blocks" />

@@ -4,6 +4,7 @@
 #include<string.h>
 #include<limits.h>
 #include<time.h>
+#include<math.h>
 typedef struct net_com Net_Component;
 struct net_com{
     int net_index;
@@ -113,6 +114,13 @@ void print_adj_bk_component(FILE* fp,Block* bk_list,int bk_index);
 void insert_adj_component(Block* bk_list,int bk_index,int adj_bk_index);
 void free_net_component(Net_Component* ele);
 void free_net_components(Block ele);
+void place_simulated_initial_block(Block* bk_list,Net* net_list,int bk_index,int tier_no);
+void Simulated_Annealtion(FILE* fp1,Block* bk_list,Net* net_list,int B,int T,float Initial_Temp,int no_of_steps);
+void Simulated_Initialize(FILE* fp1,Block* bk_list,Net* net_list,int B,int N);
+int calculate_simulated_block_current_cost(Block* bk_list,Net* net_list,int bk_index);
+void place_simulated_block(Block* bk_list,Net* net_list,int bk_index,int tier_no);
+void Min_area_coverage(Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,int T);
+void calculate_tier_gain_list(int* Cost,Gain* gain_list,Block* bk_list,int B);
 /*print_ter_component(Terminal_Component* ptr)
 {
     if(ptr==NULL)

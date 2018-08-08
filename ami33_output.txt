@@ -8,8 +8,14 @@
  Min area for each tier=549313.274569
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=64
+At End Total Number of MIV after Compromised FM=92
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=92
+At End Total Number of MIV after Min area coverage=92
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -19,8 +25,14 @@ At End Total Number of MIV=92
  Min area for each tier=520402.049138
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=64
+At End Total Number of MIV after Compromised FM=103
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=103
+At End Total Number of MIV after Min area coverage=103
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -30,8 +42,14 @@ At End Total Number of MIV=103
  Min area for each tier=491490.821554
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=64
+At End Total Number of MIV after Compromised FM=115
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=117
+At End Total Number of MIV after Min area coverage=115
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -41,8 +59,14 @@ At End Total Number of MIV=117
  Min area for each tier=462579.598277
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=64
+At End Total Number of MIV after Compromised FM=118
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=120
+At End Total Number of MIV after Min area coverage=118
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -52,8 +76,14 @@ At End Total Number of MIV=120
  Min area for each tier=433668.375000
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=64
+At End Total Number of MIV after Compromised FM=123
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=123
+At End Total Number of MIV after Min area coverage=123
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -63,8 +93,14 @@ At End Total Number of MIV=123
  Min area for each tier=366208.849713
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=103
+At End Total Number of MIV after Compromised FM=171
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=171
+At End Total Number of MIV after Min area coverage=171
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -74,8 +110,14 @@ At End Total Number of MIV=171
  Min area for each tier=346934.699426
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=103
-Time Taken to execute Compromized FM:0.016000
-At End Total Number of MIV=193
+At End Total Number of MIV after Compromised FM=192
+Time Taken to execute Compromized FM:0.000000
+At End Total Number of MIV after Min area coverage=192
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -85,8 +127,14 @@ At End Total Number of MIV=193
  Min area for each tier=327660.547702
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=103
+At End Total Number of MIV after Compromised FM=246
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=224
+At End Total Number of MIV after Min area coverage=246
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -96,8 +144,14 @@ At End Total Number of MIV=224
  Min area for each tier=308386.398851
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=103
-Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=245
+At End Total Number of MIV after Compromised FM=246
+Time Taken to execute Compromized FM:0.015000
+At End Total Number of MIV after Min area coverage=246
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -107,8 +161,14 @@ At End Total Number of MIV=245
  Min area for each tier=289112.250000
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=103
+At End Total Number of MIV after Compromised FM=246
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=246
+At End Total Number of MIV after Min area coverage=246
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -118,8 +178,14 @@ At End Total Number of MIV=246
  Min area for each tier=274656.637285
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
+At End Total Number of MIV after Compromised FM=349
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=338
+At End Total Number of MIV after Min area coverage=350
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -129,8 +195,14 @@ At End Total Number of MIV=338
  Min area for each tier=260201.024569
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
+At End Total Number of MIV after Compromised FM=353
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=340
+At End Total Number of MIV after Min area coverage=353
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -140,8 +212,14 @@ At End Total Number of MIV=340
  Min area for each tier=245745.410777
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
+At End Total Number of MIV after Compromised FM=359
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=363
+At End Total Number of MIV after Min area coverage=359
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -151,8 +229,14 @@ At End Total Number of MIV=363
  Min area for each tier=231289.799138
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
-Time Taken to execute Compromized FM:0.016000
-At End Total Number of MIV=369
+At End Total Number of MIV after Compromised FM=367
+Time Taken to execute Compromized FM:0.000000
+At End Total Number of MIV after Min area coverage=367
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -162,8 +246,14 @@ At End Total Number of MIV=369
  Min area for each tier=216834.187500
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=161
-Time Taken to execute Compromized FM:0.015000
-At End Total Number of MIV=369
+At End Total Number of MIV after Compromised FM=368
+Time Taken to execute Compromized FM:0.016000
+At End Total Number of MIV after Min area coverage=368
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -173,8 +263,14 @@ At End Total Number of MIV=369
  Min area for each tier=219725.309828
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
+At End Total Number of MIV after Compromised FM=364
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=355
+At End Total Number of MIV after Min area coverage=370
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -184,8 +280,14 @@ At End Total Number of MIV=355
  Min area for each tier=208160.819655
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
+At End Total Number of MIV after Compromised FM=370
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=370
+At End Total Number of MIV after Min area coverage=370
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -195,8 +297,14 @@ At End Total Number of MIV=370
  Min area for each tier=196596.328621
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
+At End Total Number of MIV after Compromised FM=370
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=370
+At End Total Number of MIV after Min area coverage=370
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -206,8 +314,14 @@ At End Total Number of MIV=370
  Min area for each tier=185031.839311
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
+At End Total Number of MIV after Compromised FM=375
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=375
+At End Total Number of MIV after Min area coverage=375
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000
+
 ***********************************************************************************************
 
 ***********************************************************************************************
@@ -217,5 +331,10 @@ At End Total Number of MIV=375
  Min area for each tier=173467.350000
 Time Taken to execute Initial Partition:0.000000
 After Initial Partition Total Number of MIV=148
+At End Total Number of MIV after Compromised FM=492
 Time Taken to execute Compromized FM:0.000000
-At End Total Number of MIV=429
+At End Total Number of MIV after Min area coverage=492
+Time Taken to execute Min area Coverage:0.000000
+ Total Area of all the blocks =1156449.000000
+
+Total area of tiers=1156449.000000

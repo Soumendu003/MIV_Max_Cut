@@ -14,18 +14,19 @@
 1533068279 source:d:\miv_new_project\read_nets.c
 	"header.h"
 
-1533582086 source:d:\miv_new_project\read_blocks1.c
+1533679966 source:d:\miv_new_project\read_blocks1.c
 	"Header1.h"
 
-1533584395 d:\miv_new_project\header1.h
+1533704408 d:\miv_new_project\header1.h
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
 	<string.h>
 	<limits.h>
 	<time.h>
+	<math.h>
 
-1533584651 source:d:\miv_new_project\read_nets1.c
+1533706006 source:d:\miv_new_project\read_nets1.c
 	"Header1.h"
 
 1533584512 source:d:\miv_new_project\initial_partition.c
@@ -35,5 +36,11 @@
 	"Header1.h"
 
 1533584398 source:d:\miv_new_project\compromized_fm.c
+	"Header1.h"
+
+1533701035 source:d:\miv_new_project\simulated_initialize.c
+	"Header1.h"
+
+1533701035 source:d:\miv_new_project\simulated_annelation.c
 	"Header1.h"
 
