@@ -3,7 +3,7 @@ void Simulated_Initialize(FILE* fp1,Block* bk_list,Net* net_list,int B,int N)
 {
     printf("\n Inside Simulated Initialize");
     srand((unsigned int)time(NULL));
-    int i,j;
+    int i;
     float a=1;
     clock_t start=clock();
     for(i=0;i<B;i++)

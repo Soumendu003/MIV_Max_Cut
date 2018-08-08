@@ -46,12 +46,12 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
     fprintf(fp1,"\nAt End Total Number of MIV after Compromised FM=%d",claculate_MIV(net_list,N,T));
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Compromized FM:%0.6lf",time_taken);
-    /*start_time=clock();
+    start_time=clock();
     Min_area_coverage(bk_list,net_list,tier_list,B,N,T);
     end_time=clock();
     fprintf(fp1,"\nAt End Total Number of MIV after Min area coverage=%d",claculate_MIV(net_list,N,T));
     time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
-    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);*/
+    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);
     FILE* fp=fopen("Final_Block_Placement.txt","w");
     for(i=0;i<B;i++)
     {
@@ -171,7 +171,7 @@ void Min_area_coverage(Block* bk_list,Net* net_list,Tier* tier_list,int B,int N,
             while(tier_list[i].area_consumed<tier_list[i].min_area && ret_index>=0)
             {
                 int pre_tier=bk_list[ele.bk_index].tier;
-                if(i!=pre_tier && place_block(tier_list,bk_list,ele.bk_index,i,pre_tier))
+                if(i!=pre_tier && (tier_list[pre_tier].area_consumed-bk_list[ele.bk_index].area)>tier_list[pre_tier].min_area && place_block(tier_list,bk_list,ele.bk_index,i,pre_tier))
                 {
                     Net_Component* tem=bk_list[ele.bk_index].net_ptr;
                     while(tem!=NULL)

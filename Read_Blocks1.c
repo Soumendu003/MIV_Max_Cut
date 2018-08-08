@@ -1,16 +1,16 @@
 #include"Header1.h"
 void Read_Blocks(FILE* fp1)
 {
-    int i,B,T,cnt=0;
-    char* str=(char*)calloc(10,sizeof(char));
-    int area;
+    int i,j,k,B,T,cnt=0;
+    char* str=(char*)calloc(30,sizeof(char));
     fscanf(fp1,"%d",&B);
+    printf("\n No of Blocks=%d",B);
     Block* bk_list=(Block*)calloc(B,sizeof(Block));
     fscanf(fp1,"%d",&T);
-    while(!feof(fp1))
+    while(cnt<B)
     {
          fscanf(fp1,"%s",str);
-         if(str[0]=='b' && str[1]=='k')
+         if(str[0]=='M')
          {
              i=0;
              while(str[i+2]!='\0')
@@ -19,34 +19,59 @@ void Read_Blocks(FILE* fp1)
                  i++;
              }
              bk_list[cnt].name[i]='\0';
-             fscanf(fp1,"%s%d",str,&area);
-             bk_list[cnt].area=area;
+             fscanf(fp1,"%[^\n]",str);
+             j=0;
+             k=0;
+             while(str[j]!='\0')
+             {
+                 if(str[j]=='(')
+                 {
+                     if(k==2)
+                     {
+                         j++;
+                         int val=0;
+                         while(str[j]!=',')
+                         {
+                             val=val*10+(str[j]-48);
+                             j++;
+                         }
+                         bk_list[cnt].length=val;
+                         j+=2;
+                         val=0;
+                         while(str[j]!=')')
+                         {
+                             val=val*10+(str[j]-48);
+                             j++;
+                         }
+                         bk_list[cnt].width=val;
+                         break;
+                     }
+                     else{
+                        k++;
+                     }
+                 }
+                 j++;
+             }
+             //printf("\n Block Length=%d\t Block Width=%d",bk_list[cnt].length,bk_list[cnt].width);
+             bk_list[cnt].area=(bk_list[cnt].length*bk_list[cnt].width);
              bk_list[cnt].index=cnt;
              cnt++;
          }
-         /*else if(str[0]=='G' || str[0]=='P' || str[0]=='V')
-         {
-             i=0;
-             while(str[i+2]!='\0')
-             {
-                 tr_list[tr_cnt].name[i]=str[i+2];
-                 i++;
-             }
-             tr_list[tr_cnt].name[i]='\0';
-             tr_list[tr_cnt].index=tr_cnt;
-             tr_cnt++;
-         }*/
     }
-    free(str);
+    //free(str);
     fclose(fp1);
+    printf("\n Block Reading Done");
     for(i=0;i<B;i++)
     {
         bk_list[i].index=i;
     }
-    fp1=fopen("ami33.nets","r");
+    fp1=fopen("ami49.nets","r");
     if(fp1!=NULL)
     {
-        printf("\nnet file opemed");
+        printf("\nnet file opened");
+    }
+    else{
+        printf("\n File opening failed");
     }
     Read_Nets(fp1,bk_list,B);
     fclose(fp1);
@@ -118,7 +143,7 @@ void default_blocks_placement(Block* bk_list,int B)
     }
 }
 
-/*int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
+int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
 {
     if(tier_list[tier_cnt].area_consumed+bk_list[bk_index].area<=tier_list[tier_cnt].max_area && prev_tier>=0 )
     {
@@ -137,9 +162,9 @@ void default_blocks_placement(Block* bk_list,int B)
     else{
         return 0;
     }
-}*/
+}
 
-int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
+/*int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int prev_tier)
 {
     if(tier_list[tier_cnt].area_consumed+bk_list[bk_index].area<=tier_list[tier_cnt].max_area && prev_tier>=0 && tier_list[prev_tier].area_consumed-bk_list[bk_index].area>=tier_list[tier_cnt].min_area)
     {
@@ -158,7 +183,7 @@ int place_block(Tier* tier_list,Block* bk_list,int bk_index,int tier_cnt,int pre
     else{
         return 0;
     }
-}
+}*/
 
 int calculate_block_cost(Block* bk_list,Net* net_list,int bk_index,int tier_no)
 {

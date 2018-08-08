@@ -26,7 +26,9 @@ typedef struct block Block;
 struct block{
     char name[10];
     int index;
-    int area;
+    long area;
+    int length;
+    int width;
     int tier;
     bool lock;
     int no_of_adj_bk;

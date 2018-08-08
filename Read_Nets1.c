@@ -4,8 +4,11 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     printf("\n Inside Read net");
     int i,j,N,tot_pin,deg,cnt=0;
     fscanf(fp1,"%d",&N);
+    printf("\n Total Net=%d",N);
     Net* net_list=(Net*)calloc(N,sizeof(Net));
+    printf("\n Net_list Declared");
     fscanf(fp1,"%d",&tot_pin);
+    printf("\n Total Net=%d\tTotal terminal=%d",N,tot_pin);
     char str[10];
     while(!feof(fp1))
     {
@@ -17,13 +20,14 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         if(str[0]=='N' && str[1]=='e')
         {
             fscanf(fp1,"%s%d",str,&deg);
+            printf("\n Net Degree=%d",deg);
             net_list[cnt].no_of_bk=0;
             net_list[cnt].degree=deg;
             i=0;
             while(i<deg)
             {
                 fscanf(fp1,"%s",str);
-                if(str[0]=='b' && str[1]=='k')
+                if(str[0]=='M')
                 {
                     i++;
                     net_list[cnt].no_of_bk++;
@@ -63,7 +67,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         }
     }
     printf("\n Reading Done");
-    FILE* fp=fopen("Net_Details.txt","w");
+    FILE* fp=fopen("Net_Details_ami49.txt","w");
     if(fp!=NULL)
     {
         printf("\n Net_Details file opened");
@@ -110,7 +114,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     }
     fclose(fp);
     float relaxation=0.05;
-    fp=fopen("ami33_output_with_min_restriction.txt","w");
+    fp=fopen("ami49_output.txt","w");
     for(j=2;j<=5;j++)
     {
         for(i=1;i<=5;i++)
