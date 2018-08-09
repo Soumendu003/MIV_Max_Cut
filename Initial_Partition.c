@@ -86,5 +86,6 @@ void Initial_Partition(FILE* fp1,Block* bk_list,Net* net_list,int B,int N,int T,
     printf("\n Calling Secondary Partition:");
     Secondary_Partition(fp1,net_list,bk_list,tier_list,N,B,T);
     free(tier_list);
+    printf("\n Tier list freed");
 
 }

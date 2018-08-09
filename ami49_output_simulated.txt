@@ -1,0 +1,87 @@
+
+***********************************************************************************************
+
+***********************************************************************************************
+
+After Initialization MIV count=270
+Time Taken to execute Initialize function:0.000000
+
+ No of steps per Temperature=20000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :1.968000
+
+After Simulated Annelation MIV count=163
+
+ No of steps per Temperature=25000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :2.391000
+
+After Simulated Annelation MIV count=136
+
+ No of steps per Temperature=30000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :2.874000
+
+After Simulated Annelation MIV count=114
+
+ No of steps per Temperature=35000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :3.437000
+
+After Simulated Annelation MIV count=110
+
+ No of steps per Temperature=40000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :3.933000
+
+After Simulated Annelation MIV count=153
+
+ No of steps per Temperature=45000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :4.296000
+
+After Simulated Annelation MIV count=95
+
+ No of steps per Temperature=50000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :4.813000
+
+After Simulated Annelation MIV count=135
+
+ No of steps per Temperature=55000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :5.265000
+
+After Simulated Annelation MIV count=189
+
+ No of steps per Temperature=60000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :5.736000
+
+After Simulated Annelation MIV count=125
+
+ No of steps per Temperature=65000
+
+ No of Temperature steps=105
+
+Time Taken to execute Simulated Annelation :6.218000
+
+After Simulated Annelation MIV count=103

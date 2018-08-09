@@ -1,0 +1,1225 @@
+
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=1
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=6	 Number of Blocks=6
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=6	 Number of Blocks=6
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=6	 Number of Blocks=6
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=7	 Number of Blocks=7
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=24	 Number of Blocks=24
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=4	 Number of Blocks=4
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=9	 Number of Blocks=9
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=4	 Number of Blocks=4
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=4	 Number of Blocks=4
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=2
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=2	 Low_Tier=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=1	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+Top_tier=0	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=0
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=3
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=4	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+Top_tier=3	 Low_Tier=3

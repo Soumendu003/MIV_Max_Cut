@@ -1,0 +1,2137 @@
+
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=47
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=47
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=47
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=47
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=47
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=48
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=36
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=48
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=16
+bk_component=17
+bk_component=45
+bk_component=48
+The Net Degree=6	 Number of Blocks=6
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=21
+bk_component=24
+bk_component=35
+bk_component=48
+The Net Degree=6	 Number of Blocks=6
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=16
+bk_component=17
+bk_component=35
+bk_component=43
+bk_component=48
+The Net Degree=6	 Number of Blocks=6
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=22
+bk_component=23
+bk_component=34
+bk_component=38
+bk_component=48
+The Net Degree=7	 Number of Blocks=7
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+bk_component=34
+bk_component=36
+bk_component=45
+bk_component=47
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+bk_component=48
+The Net Degree=24	 Number of Blocks=24
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+bk_component=4
+bk_component=5
+bk_component=7
+bk_component=9
+bk_component=11
+bk_component=13
+bk_component=17
+bk_component=18
+bk_component=20
+bk_component=23
+bk_component=24
+bk_component=25
+bk_component=28
+bk_component=30
+bk_component=31
+bk_component=36
+bk_component=38
+bk_component=40
+bk_component=41
+bk_component=42
+bk_component=43
+bk_component=44
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=48
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=46
+bk_component=47
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=46
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=46
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=46
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=46
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=45
+bk_component=46
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=42
+bk_component=45
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=34
+bk_component=45
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=34
+bk_component=45
+The Net Degree=4	 Number of Blocks=4
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=31
+bk_component=36
+bk_component=45
+The Net Degree=9	 Number of Blocks=9
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=24
+bk_component=28
+bk_component=30
+bk_component=40
+bk_component=42
+bk_component=43
+bk_component=44
+bk_component=45
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+bk_component=45
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=43
+bk_component=44
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=24
+bk_component=44
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=43
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=43
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=43
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=43
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=44
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=33
+bk_component=34
+bk_component=44
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=42
+bk_component=43
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=43
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=43
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=40
+bk_component=43
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=42
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=40
+bk_component=42
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=23
+bk_component=24
+bk_component=35
+bk_component=42
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=40
+bk_component=42
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=40
+bk_component=42
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=40
+bk_component=42
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=41
+bk_component=42
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=41
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=40
+bk_component=41
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=41
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=41
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=40
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=8
+bk_component=34
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=39
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=38
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=40
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=39
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=39
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=39
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=39
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=39
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=22
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=37
+bk_component=38
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=36
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=35
+bk_component=36
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=36
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=34
+bk_component=36
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=36
+The Net Degree=3	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=34
+bk_component=36
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=36
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=36
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=22
+bk_component=36
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=24
+bk_component=28
+bk_component=30
+bk_component=31
+bk_component=35
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=35
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=34
+bk_component=35
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=16
+bk_component=17
+bk_component=24
+bk_component=35
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=35
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=35
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+bk_component=34
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=24
+bk_component=27
+bk_component=28
+bk_component=30
+bk_component=34
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=33
+bk_component=34
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+bk_component=34
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=32
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=24
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=24
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=33
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=31
+bk_component=32
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=31
+bk_component=32
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+bk_component=31
+bk_component=32
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=31
+bk_component=32
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=31
+bk_component=32
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=31
+bk_component=32
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=31
+bk_component=32
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=31
+bk_component=32
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=31
+bk_component=32
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+bk_component=31
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=29
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+bk_component=17
+bk_component=24
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=30
+The Net Degree=4	 Number of Blocks=4
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=25
+bk_component=26
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=28
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=29
+bk_component=30
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=16
+bk_component=17
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=28
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=27
+bk_component=30
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=28
+bk_component=29
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=28
+bk_component=29
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=28
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=28
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=28
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=28
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=28
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=26
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=24
+bk_component=27
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=25
+bk_component=26
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=25
+bk_component=26
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=25
+bk_component=26
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=25
+bk_component=26
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=25
+bk_component=26
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=25
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=25
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+bk_component=25
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=25
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=16
+bk_component=24
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=11
+bk_component=24
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+bk_component=24
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+bk_component=24
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+bk_component=7
+bk_component=9
+bk_component=20
+bk_component=24
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=24
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=23
+bk_component=24
+The Net Degree=4	 Number of Blocks=4
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=15
+bk_component=23
+bk_component=24
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=15
+bk_component=22
+bk_component=23
+bk_component=24
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=22
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=22
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=7
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=22
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=23
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=8
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+bk_component=22
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=8
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=22
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=19
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=22
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=21
+bk_component=22
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+bk_component=22
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=21
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=7
+bk_component=8
+bk_component=21
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+bk_component=5
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=20
+bk_component=21
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=15
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=19
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=14
+bk_component=15
+bk_component=18
+bk_component=19
+The Net Degree=5	 Number of Blocks=5
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=14
+bk_component=15
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=18
+bk_component=19
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=18
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=17
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=17
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=16
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=16
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=17
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=16
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=16
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=15
+bk_component=16
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=13
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=14
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=14
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=14
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=14
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=14
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=14
+bk_component=15
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=13
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=12
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=12
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+bk_component=12
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+bk_component=12
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+bk_component=12
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+bk_component=12
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+bk_component=12
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=10
+bk_component=11
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=9
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=9
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=9
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=8
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=6
+bk_component=8
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=8
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=7
+bk_component=8
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=7
+bk_component=8
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+bk_component=8
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=7
+bk_component=8
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=8
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=6
+bk_component=7
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=6
+bk_component=7
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=6
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=6
+The Net Degree=3	 Number of Blocks=3
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=6
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+The Net Degree=2	 Number of Blocks=1
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=4
+bk_component=5
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=3
+bk_component=4
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=1
+bk_component=2
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0
+bk_component=1
+The Net Degree=2	 Number of Blocks=2
+GND pin=0	POW pin=0
+	Block components are:
+bk_component=0

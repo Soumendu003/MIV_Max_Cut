@@ -1,12 +1,11 @@
 #include"Header1.h"
 void Read_Nets(FILE* fp1,Block* bk_list,int B)
 {
-    printf("\n Inside Read net");
-    char* str=(char*)calloc(10,sizeof(char));
     int i,j,N,tot_pin,deg,cnt=0;
     fscanf(fp1,"%d",&N);
     fscanf(fp1,"%d",&tot_pin);
     Net* net_list=(Net*)calloc(N,sizeof(Net));
+    char* str=(char*)calloc(50,sizeof(char));
     while(!feof(fp1))
     {
         if(feof(fp1))
@@ -37,7 +36,6 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                     name[j]='\0';
                     j=search_block(bk_list,0,B-1,name);
                     insert_bk_component(net_list,cnt,j);
-                    printf("\n Block Component Inserted");
                 }
                 else if(str[0]=='G')
                 {
@@ -47,6 +45,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                 else if(str[0]=='P' && str[1]=='O')
                 {
                     i++;
+
                     net_list[cnt].pwr=true;
                 }
                 else if(str[0]=='V')
@@ -57,6 +56,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                 else if(str[0]=='N')
                 {
                     i++;
+                     printf("\n Pad Detected");
                     net_list[cnt].pad=true;
                 }
             }
@@ -100,7 +100,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
             tem=tem->right;
         }
     }*/
-    fp=fopen("Block_details.txt","w+");
+    fp=fopen("Block_details_ami49.txt","w+");
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
@@ -111,7 +111,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     }
     fclose(fp);
     float relaxation=0.05;
-    fp=fopen("ami49_output.txt","w");
+    fp=fopen("ami49_output_with_min restriction.txt","w");
     for(j=2;j<=5;j++)
     {
         for(i=1;i<=5;i++)
@@ -119,7 +119,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
             Initial_Partition(fp,bk_list,net_list,B,N,j,i*relaxation);
         }
     }
-  //  Simulated_Initialize(fp,bk_list,net_list,B,N);
+    //Simulated_Initialize(fp,bk_list,net_list,B,N);
     for(i=0;i<N;i++)
     {
         free_block_components(net_list[i]);

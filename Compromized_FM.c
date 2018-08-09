@@ -46,12 +46,12 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
     fprintf(fp1,"\nAt End Total Number of MIV after Compromised FM=%d",claculate_MIV(net_list,N,T));
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Compromized FM:%0.6lf",time_taken);
-    start_time=clock();
+    /*start_time=clock();
     Min_area_coverage(bk_list,net_list,tier_list,B,N,T);
     end_time=clock();
     fprintf(fp1,"\nAt End Total Number of MIV after Min area coverage=%d",claculate_MIV(net_list,N,T));
     time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
-    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);
+    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);*/
     FILE* fp=fopen("Final_Block_Placement.txt","w");
     for(i=0;i<B;i++)
     {
@@ -133,7 +133,7 @@ void Max_Heapify_Gain(Gain* gain_list,Block* bk_list,int ele_index,int last_inde
         }
         else if(gain_list[ele_index].gain_value==gain_list[j].gain_value)
         {
-            if(bk_list[gain_list[ele_index].bk_index].bk_degree<bk_list[gain_list[ele_index].bk_index].bk_degree)
+            if(bk_list[gain_list[ele_index].bk_index].bk_degree<bk_list[gain_list[j].bk_index].bk_degree)
             {
                 Gain tem=gain_list[ele_index];
                 gain_list[ele_index]=gain_list[j];

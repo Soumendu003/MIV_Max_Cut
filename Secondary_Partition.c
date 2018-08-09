@@ -35,6 +35,7 @@ void Secondary_Partition(FILE* fp1,Net* net_list,Block* bk_list,Tier* tr_list,in
     fclose(fp);
     Compromized_FM(fp1,Cost,gain_list,bk_list,net_list,tr_list,B,N,T);
     free(gain_list);
+    printf("\n Gain_list Freed");
     for(i=0;i<B;i++)
     {
         free(Cost[i]);
