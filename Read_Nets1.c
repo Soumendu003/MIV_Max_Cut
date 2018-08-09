@@ -4,9 +4,10 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     int i,j,N,tot_pin,deg,cnt=0;
     fscanf(fp1,"%d",&N);
     fscanf(fp1,"%d",&tot_pin);
+    printf("\n No of Net=%d\tNo of Pin=%d",N,tot_pin);
     Net* net_list=(Net*)calloc(N,sizeof(Net));
     char* str=(char*)calloc(50,sizeof(char));
-    while(!feof(fp1))
+    while(cnt<N)
     {
         if(feof(fp1))
         {
@@ -15,6 +16,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         fscanf(fp1,"%s",str);
         if(str[0]=='N' && str[1]=='e')
         {
+            printf("\n Net found");
             fscanf(fp1,"%s%d",str,&deg);
             net_list[cnt].no_of_bk=0;
             net_list[cnt].degree=deg;
@@ -22,27 +24,34 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
             while(i<deg)
             {
                 fscanf(fp1,"%s",str);
-                if(str[0]=='M')
+                if(str[0]=='s' && str[1]=='b')
                 {
                     i++;
                     net_list[cnt].no_of_bk++;
                     j=0;
-                    char name[10];
+                    char name[20];
+                    int val=0;
+                    //strcpy(name,str);
                     while(str[j+2]!='\0')
                     {
+                        val=val*10+(str[j+2]-48);
                         name[j]=str[j+2];
                         j++;
                     }
                     name[j]='\0';
-                    j=search_block(bk_list,0,B-1,name);
-                    insert_bk_component(net_list,cnt,j);
+                    printf("\n Block index=%d",val);
+                    //printf("\n Name of the Block=%s",name);
+                    //j=search_block(bk_list,0,B-1,name);
+                    //printf("\n Value of j=%d",j);
+                    insert_bk_component(net_list,cnt,val);
+                    printf("\n Block Inserted");
                 }
                 else if(str[0]=='G')
                 {
                     i++;
                     net_list[cnt].gnd=true;
                 }
-                else if(str[0]=='P' && str[1]=='O')
+                else if(str[0]=='p')
                 {
                     i++;
 
@@ -56,20 +65,21 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                 else if(str[0]=='N')
                 {
                     i++;
-                     printf("\n Pad Detected");
+                    //printf("\n Pad Detected");
                     net_list[cnt].pad=true;
                 }
             }
             cnt++;
         }
+        printf("\n COUNT=%d",cnt);
     }
     printf("\n Reading Done");
-    FILE* fp=fopen("Net_Details_ami49.txt","w");
-    if(fp!=NULL)
+    //FILE* fp=fopen("Net_Details_ami49.txt","w");
+    /*if(fp!=NULL)
     {
         printf("\n Net_Details file opened");
     }
-    for(j=0;j<N;j++)
+   /* for(j=0;j<N;j++)
     {
         fprintf(fp,"\nThe Net Degree=%d\t Number of Blocks=%d",net_list[j].degree,net_list[j].no_of_bk);
         fprintf(fp,"\nGND pin=%d\tPOW pin=%d",net_list[j].gnd,net_list[j].pwr);
@@ -80,7 +90,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
 
     }
     fclose(fp);
-    printf("\n Net Details Printed");
+    printf("\n Net Details Printed");*/
     for(i=0;i<N;i++)
     {
         Block_Component* tem=net_list[i].bk_ptr;
@@ -100,7 +110,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
             tem=tem->right;
         }
     }*/
-    fp=fopen("Block_details_ami49.txt","w+");
+    /*fp=fopen("Block_details_ami49.txt","w+");
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d",bk_list[i].name,bk_list[i].index);
@@ -109,17 +119,17 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         //fprintf(fp,"\nTotal_adj_blocks=%d\t Adjacency Blocks=",bk_list[i].no_of_adj_bk);
         //print_adj_bk_component(fp,bk_list,i);
     }
-    fclose(fp);
+    fclose(fp);*/
     float relaxation=0.05;
-    fp=fopen("ami49_output_with_min restriction.txt","w");
-    for(j=2;j<=5;j++)
+    FILE* fp=fopen("n300_output_simulated.txt","w");
+    /*for(j=2;j<=5;j++)
     {
         for(i=1;i<=5;i++)
         {
             Initial_Partition(fp,bk_list,net_list,B,N,j,i*relaxation);
         }
-    }
-    //Simulated_Initialize(fp,bk_list,net_list,B,N);
+    }*/
+    Simulated_Initialize(fp,bk_list,net_list,B,N);
     for(i=0;i<N;i++)
     {
         free_block_components(net_list[i]);

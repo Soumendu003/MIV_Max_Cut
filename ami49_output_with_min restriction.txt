@@ -7,9 +7,7 @@
  Max area for each tier=18608847.613204
  Min area for each tier=16836576.386796
 At End Total Number of MIV after Compromised FM=397
-Time Taken to execute Compromized FM:0.004000
-At End Total Number of MIV after Min area coverage=397
-Time Taken to execute Min area Coverage:0.000000
+Time Taken to execute Compromized FM:0.006000
 
  Total Area of all the blocks =35445424.000000
 
@@ -26,9 +24,7 @@ Total area of tiers=35445424.000000
  Max area for each tier=19494983.226409
  Min area for each tier=15950440.773591
 At End Total Number of MIV after Compromised FM=400
-Time Taken to execute Compromized FM:0.004000
-At End Total Number of MIV after Min area coverage=400
-Time Taken to execute Min area Coverage:0.000000
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
@@ -46,8 +42,6 @@ Total area of tiers=35445424.000000
  Min area for each tier=15064305.094364
 At End Total Number of MIV after Compromised FM=406
 Time Taken to execute Compromized FM:0.002000
-At End Total Number of MIV after Min area coverage=406
-Time Taken to execute Min area Coverage:0.000000
 
  Total Area of all the blocks =35445424.000000
 
@@ -64,9 +58,7 @@ Total area of tiers=35445424.000000
  Max area for each tier=21267254.452818
  Min area for each tier=14178169.547182
 At End Total Number of MIV after Compromised FM=408
-Time Taken to execute Compromized FM:0.005000
-At End Total Number of MIV after Min area coverage=408
-Time Taken to execute Min area Coverage:0.000000
+Time Taken to execute Compromized FM:0.003000
 
  Total Area of all the blocks =35445424.000000
 
@@ -83,9 +75,7 @@ Total area of tiers=35445424.000000
  Max area for each tier=22153390.000000
  Min area for each tier=13292034.000000
 At End Total Number of MIV after Compromised FM=408
-Time Taken to execute Compromized FM:0.003000
-At End Total Number of MIV after Min area coverage=408
-Time Taken to execute Min area Coverage:0.000000
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
@@ -101,16 +91,14 @@ Total area of tiers=35445424.000000
  Avg area for each tier=11815141.333333
  Max area for each tier=12405898.408803
  Min area for each tier=11224384.257864
-At End Total Number of MIV after Compromised FM=628
-Time Taken to execute Compromized FM:0.008000
-At End Total Number of MIV after Min area coverage=628
-Time Taken to execute Min area Coverage:0.001000
+At End Total Number of MIV after Compromised FM=587
+Time Taken to execute Compromized FM:0.003000
 
  Total Area of all the blocks =35445424.000000
 
  Divergence of tier area from avg area=0.055667
- Divergence of tier area from avg area=-0.044912
- Divergence of tier area from avg area=-0.010755
+ Divergence of tier area from avg area=-0.036086
+ Divergence of tier area from avg area=-0.019580
 
 Total area of tiers=35445424.000000
 
@@ -121,16 +109,14 @@ Total area of tiers=35445424.000000
  Avg area for each tier=11815141.333333
  Max area for each tier=12996655.484273
  Min area for each tier=10633627.182394
-At End Total Number of MIV after Compromised FM=728
-Time Taken to execute Compromized FM:0.005000
-At End Total Number of MIV after Min area coverage=728
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=709
+Time Taken to execute Compromized FM:0.003000
 
  Total Area of all the blocks =35445424.000000
 
  Divergence of tier area from avg area=0.055667
- Divergence of tier area from avg area=-0.031226
- Divergence of tier area from avg area=-0.024441
+ Divergence of tier area from avg area=-0.088457
+ Divergence of tier area from avg area=0.032791
 
 Total area of tiers=35445424.000000
 
@@ -141,16 +127,14 @@ Total area of tiers=35445424.000000
  Avg area for each tier=11815141.333333
  Max area for each tier=13587412.603757
  Min area for each tier=10042870.062910
-At End Total Number of MIV after Compromised FM=766
-Time Taken to execute Compromized FM:0.002000
-At End Total Number of MIV after Min area coverage=766
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=750
+Time Taken to execute Compromized FM:0.004000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.060986
- Divergence of tier area from avg area=-0.085024
- Divergence of tier area from avg area=0.146010
+ Divergence of tier area from avg area=-0.017308
+ Divergence of tier area from avg area=-0.125301
+ Divergence of tier area from avg area=0.142609
 
 Total area of tiers=35445424.000000
 
@@ -161,16 +145,14 @@ Total area of tiers=35445424.000000
  Avg area for each tier=11815141.333333
  Max area for each tier=14178169.635212
  Min area for each tier=9452113.031455
-At End Total Number of MIV after Compromised FM=775
+At End Total Number of MIV after Compromised FM=778
 Time Taken to execute Compromized FM:0.003000
-At End Total Number of MIV after Min area coverage=775
-Time Taken to execute Min area Coverage:0.000000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.008897
- Divergence of tier area from avg area=-0.189202
- Divergence of tier area from avg area=0.198099
+ Divergence of tier area from avg area=-0.095690
+ Divergence of tier area from avg area=-0.097615
+ Divergence of tier area from avg area=0.193305
 
 Total area of tiers=35445424.000000
 
@@ -181,16 +163,14 @@ Total area of tiers=35445424.000000
  Avg area for each tier=11815141.333333
  Max area for each tier=14768926.666667
  Min area for each tier=8861356.000000
-At End Total Number of MIV after Compromised FM=791
-Time Taken to execute Compromized FM:0.003000
-At End Total Number of MIV after Min area coverage=791
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=755
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.248706
- Divergence of tier area from avg area=0.037519
- Divergence of tier area from avg area=0.211188
+ Divergence of tier area from avg area=-0.247064
+ Divergence of tier area from avg area=0.244913
+ Divergence of tier area from avg area=0.002151
 
 Total area of tiers=35445424.000000
 
@@ -201,17 +181,15 @@ Total area of tiers=35445424.000000
  Avg area for each tier=8861356.000000
  Max area for each tier=9304423.806602
  Min area for each tier=8418288.193398
-At End Total Number of MIV after Compromised FM=1005
-Time Taken to execute Compromized FM:0.019000
-At End Total Number of MIV after Min area coverage=1005
-Time Taken to execute Min area Coverage:0.001000
+At End Total Number of MIV after Compromised FM=810
+Time Taken to execute Compromized FM:0.001000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.049169
- Divergence of tier area from avg area=-0.028688
- Divergence of tier area from avg area=-0.036872
- Divergence of tier area from avg area=0.114729
+ Divergence of tier area from avg area=-0.041118
+ Divergence of tier area from avg area=-0.046759
+ Divergence of tier area from avg area=-0.188450
+ Divergence of tier area from avg area=0.276327
 
 Total area of tiers=35445424.000000
 
@@ -222,17 +200,15 @@ Total area of tiers=35445424.000000
  Avg area for each tier=8861356.000000
  Max area for each tier=9747491.613204
  Min area for each tier=7975220.386796
-At End Total Number of MIV after Compromised FM=1007
-Time Taken to execute Compromized FM:0.013000
-At End Total Number of MIV after Min area coverage=1007
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=863
+Time Taken to execute Compromized FM:0.001000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.075314
- Divergence of tier area from avg area=-0.045984
- Divergence of tier area from avg area=-0.048064
- Divergence of tier area from avg area=0.169361
+ Divergence of tier area from avg area=-0.075225
+ Divergence of tier area from avg area=-0.096569
+ Divergence of tier area from avg area=-0.104532
+ Divergence of tier area from avg area=0.276327
 
 Total area of tiers=35445424.000000
 
@@ -243,17 +219,15 @@ Total area of tiers=35445424.000000
  Avg area for each tier=8861356.000000
  Max area for each tier=10190559.452818
  Min area for each tier=7532152.547182
-At End Total Number of MIV after Compromised FM=1008
-Time Taken to execute Compromized FM:0.004000
-At End Total Number of MIV after Min area coverage=1008
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=959
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.007587
- Divergence of tier area from avg area=-0.142200
- Divergence of tier area from avg area=-0.019575
- Divergence of tier area from avg area=0.169361
+ Divergence of tier area from avg area=-0.086373
+ Divergence of tier area from avg area=-0.132136
+ Divergence of tier area from avg area=-0.057818
+ Divergence of tier area from avg area=0.276327
 
 Total area of tiers=35445424.000000
 
@@ -264,17 +238,15 @@ Total area of tiers=35445424.000000
  Avg area for each tier=8861356.000000
  Max area for each tier=10633627.226409
  Min area for each tier=7089084.773591
-At End Total Number of MIV after Compromised FM=1003
-Time Taken to execute Compromized FM:0.002000
-At End Total Number of MIV after Min area coverage=1003
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=985
+Time Taken to execute Compromized FM:0.003000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.081529
- Divergence of tier area from avg area=-0.186348
- Divergence of tier area from avg area=0.098516
- Divergence of tier area from avg area=0.169361
+ Divergence of tier area from avg area=-0.139568
+ Divergence of tier area from avg area=-0.193316
+ Divergence of tier area from avg area=0.056557
+ Divergence of tier area from avg area=0.276327
 
 Total area of tiers=35445424.000000
 
@@ -285,16 +257,14 @@ Total area of tiers=35445424.000000
  Avg area for each tier=8861356.000000
  Max area for each tier=11076695.000000
  Min area for each tier=6646017.000000
-At End Total Number of MIV after Compromised FM=1005
-Time Taken to execute Compromized FM:0.010000
-At End Total Number of MIV after Min area coverage=1005
-Time Taken to execute Min area Coverage:0.001000
+At End Total Number of MIV after Compromised FM=1000
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.160271
- Divergence of tier area from avg area=-0.213775
- Divergence of tier area from avg area=0.097720
+ Divergence of tier area from avg area=-0.192696
+ Divergence of tier area from avg area=-0.236801
+ Divergence of tier area from avg area=0.153171
  Divergence of tier area from avg area=0.276327
 
 Total area of tiers=35445424.000000
@@ -306,18 +276,16 @@ Total area of tiers=35445424.000000
  Avg area for each tier=7089084.800000
  Max area for each tier=7443539.045282
  Min area for each tier=6734630.554718
-At End Total Number of MIV after Compromised FM=1457
+At End Total Number of MIV after Compromised FM=1158
 Time Taken to execute Compromized FM:0.002000
-At End Total Number of MIV after Min area coverage=1457
-Time Taken to execute Min area Coverage:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=-0.035495
- Divergence of tier area from avg area=-0.013846
- Divergence of tier area from avg area=-0.048158
- Divergence of tier area from avg area=0.130698
- Divergence of tier area from avg area=-0.033200
+ Divergence of tier area from avg area=0.018502
+ Divergence of tier area from avg area=-0.149986
+ Divergence of tier area from avg area=0.047754
+ Divergence of tier area from avg area=0.351635
+ Divergence of tier area from avg area=-0.267905
 
 Total area of tiers=35445424.000000
 
@@ -328,18 +296,16 @@ Total area of tiers=35445424.000000
  Avg area for each tier=7089084.800000
  Max area for each tier=7797993.290564
  Min area for each tier=6380176.309436
-At End Total Number of MIV after Compromised FM=1484
-Time Taken to execute Compromized FM:0.007000
-At End Total Number of MIV after Min area coverage=1484
-Time Taken to execute Min area Coverage:0.001000
+At End Total Number of MIV after Compromised FM=1470
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=0.017341
- Divergence of tier area from avg area=-0.077022
- Divergence of tier area from avg area=-0.051586
- Divergence of tier area from avg area=0.156411
- Divergence of tier area from avg area=-0.045144
+ Divergence of tier area from avg area=0.061357
+ Divergence of tier area from avg area=-0.149986
+ Divergence of tier area from avg area=0.072084
+ Divergence of tier area from avg area=-0.075889
+ Divergence of tier area from avg area=0.092433
 
 Total area of tiers=35445424.000000
 
@@ -350,18 +316,16 @@ Total area of tiers=35445424.000000
  Avg area for each tier=7089084.800000
  Max area for each tier=8152447.562254
  Min area for each tier=6025722.037746
-At End Total Number of MIV after Compromised FM=1501
-Time Taken to execute Compromized FM:0.014000
-At End Total Number of MIV after Min area coverage=1501
-Time Taken to execute Min area Coverage:0.001000
+At End Total Number of MIV after Compromised FM=1487
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=0.017341
- Divergence of tier area from avg area=-0.123499
- Divergence of tier area from avg area=-0.051586
- Divergence of tier area from avg area=0.157185
- Divergence of tier area from avg area=0.000558
+ Divergence of tier area from avg area=0.018696
+ Divergence of tier area from avg area=-0.149986
+ Divergence of tier area from avg area=0.135122
+ Divergence of tier area from avg area=-0.145009
+ Divergence of tier area from avg area=0.141177
 
 Total area of tiers=35445424.000000
 
@@ -372,18 +336,16 @@ Total area of tiers=35445424.000000
  Avg area for each tier=7089084.800000
  Max area for each tier=8506901.781127
  Min area for each tier=5671267.818873
-At End Total Number of MIV after Compromised FM=1520
-Time Taken to execute Compromized FM:0.012000
-At End Total Number of MIV after Min area coverage=1520
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=1500
+Time Taken to execute Compromized FM:0.002000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=0.044270
- Divergence of tier area from avg area=0.034427
- Divergence of tier area from avg area=-0.096155
- Divergence of tier area from avg area=-0.147442
- Divergence of tier area from avg area=0.164899
+ Divergence of tier area from avg area=-0.004750
+ Divergence of tier area from avg area=-0.149986
+ Divergence of tier area from avg area=0.145932
+ Divergence of tier area from avg area=-0.186039
+ Divergence of tier area from avg area=0.194842
 
 Total area of tiers=35445424.000000
 
@@ -394,17 +356,15 @@ Total area of tiers=35445424.000000
  Avg area for each tier=7089084.800000
  Max area for each tier=8861356.000000
  Min area for each tier=5316813.600000
-At End Total Number of MIV after Compromised FM=1509
-Time Taken to execute Compromized FM:0.002000
-At End Total Number of MIV after Min area coverage=1509
-Time Taken to execute Min area Coverage:0.000000
+At End Total Number of MIV after Compromised FM=1519
+Time Taken to execute Compromized FM:0.003000
 
  Total Area of all the blocks =35445424.000000
 
- Divergence of tier area from avg area=0.216214
+ Divergence of tier area from avg area=0.247318
  Divergence of tier area from avg area=-0.149986
- Divergence of tier area from avg area=-0.135802
- Divergence of tier area from avg area=-0.147414
- Divergence of tier area from avg area=0.216988
+ Divergence of tier area from avg area=-0.212111
+ Divergence of tier area from avg area=-0.132153
+ Divergence of tier area from avg area=0.246931
 
 Total area of tiers=35445424.000000

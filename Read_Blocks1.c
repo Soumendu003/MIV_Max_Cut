@@ -10,7 +10,7 @@ void Read_Blocks(FILE* fp1)
     while(cnt<B)
     {
          fscanf(fp1,"%s",str);
-         if(str[0]=='M')
+         if(str[0]=='s')
          {
              i=0;
              while(str[i+2]!='\0')
@@ -19,6 +19,7 @@ void Read_Blocks(FILE* fp1)
                  i++;
              }
              bk_list[cnt].name[i]='\0';
+             printf("\n Block Name=%s",bk_list[cnt].name);
              fscanf(fp1,"%[^\n]",str);
              j=0;
              k=0;
@@ -64,7 +65,7 @@ void Read_Blocks(FILE* fp1)
     {
         bk_list[i].index=i;
     }
-    fp1=fopen("ami49.nets","r");
+    fp1=fopen("n300.nets","r");
     Read_Nets(fp1,bk_list,B);
     fclose(fp1);
     return;
