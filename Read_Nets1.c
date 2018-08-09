@@ -2,14 +2,11 @@
 void Read_Nets(FILE* fp1,Block* bk_list,int B)
 {
     printf("\n Inside Read net");
+    char* str=(char*)calloc(10,sizeof(char));
     int i,j,N,tot_pin,deg,cnt=0;
     fscanf(fp1,"%d",&N);
-    printf("\n Total Net=%d",N);
-    Net* net_list=(Net*)calloc(N,sizeof(Net));
-    printf("\n Net_list Declared");
     fscanf(fp1,"%d",&tot_pin);
-    printf("\n Total Net=%d\tTotal terminal=%d",N,tot_pin);
-    char str[10];
+    Net* net_list=(Net*)calloc(N,sizeof(Net));
     while(!feof(fp1))
     {
         if(feof(fp1))
@@ -20,7 +17,6 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         if(str[0]=='N' && str[1]=='e')
         {
             fscanf(fp1,"%s%d",str,&deg);
-            printf("\n Net Degree=%d",deg);
             net_list[cnt].no_of_bk=0;
             net_list[cnt].degree=deg;
             i=0;
@@ -41,6 +37,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                     name[j]='\0';
                     j=search_block(bk_list,0,B-1,name);
                     insert_bk_component(net_list,cnt,j);
+                    printf("\n Block Component Inserted");
                 }
                 else if(str[0]=='G')
                 {
@@ -57,13 +54,13 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                     i++;
                     net_list[cnt].V=true;
                 }
-                else if(str[0]=='P')
+                else if(str[0]=='N')
                 {
                     i++;
                     net_list[cnt].pad=true;
                 }
             }
-        cnt++;
+            cnt++;
         }
     }
     printf("\n Reading Done");

@@ -58,9 +58,9 @@ void Read_Blocks(FILE* fp1)
              cnt++;
          }
     }
-    //free(str);
-    fclose(fp1);
     printf("\n Block Reading Done");
+    free(str);
+    fclose(fp1);
     for(i=0;i<B;i++)
     {
         bk_list[i].index=i;
@@ -106,6 +106,13 @@ void insert_bk_component(Net* net_list,int index,int bk_index)
         tem=tem->right;
     }
     tem=(Block_Component*)calloc(1,sizeof(Block_Component));
+    if(tem!=NULL)
+    {
+        printf("\n tem declared");
+    }
+    else{
+        printf("\n tem is null");
+    }
     tem->bk_index=bk_index;
     tem->right=net_list[index].bk_ptr;
     net_list[index].bk_ptr=tem;
