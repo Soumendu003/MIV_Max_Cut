@@ -16,7 +16,6 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
         fscanf(fp1,"%s",str);
         if(str[0]=='N' && str[1]=='e')
         {
-            printf("\n Net found");
             fscanf(fp1,"%s%d",str,&deg);
             net_list[cnt].no_of_bk=0;
             net_list[cnt].degree=deg;
@@ -24,8 +23,9 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
             while(i<deg)
             {
                 fscanf(fp1,"%s",str);
-                if(str[0]=='s' && str[1]=='b')
+                if(str[0]=='b' && str[1]=='k')
                 {
+                    printf("\n Pin Detected=%s",str);
                     i++;
                     net_list[cnt].no_of_bk++;
                     j=0;
@@ -39,19 +39,17 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                         j++;
                     }
                     name[j]='\0';
-                    printf("\n Block index=%d",val);
                     //printf("\n Name of the Block=%s",name);
-                    //j=search_block(bk_list,0,B-1,name);
-                    //printf("\n Value of j=%d",j);
-                    insert_bk_component(net_list,cnt,val);
-                    printf("\n Block Inserted");
+                    j=search_block(bk_list,0,B-1,name);
+                    printf("\n Value of j=%d",j);
+                    insert_bk_component(net_list,cnt,j);
                 }
                 else if(str[0]=='G')
                 {
                     i++;
                     net_list[cnt].gnd=true;
                 }
-                else if(str[0]=='p')
+                else if(str[0]=='P')
                 {
                     i++;
 
@@ -65,13 +63,12 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
                 else if(str[0]=='N')
                 {
                     i++;
-                    //printf("\n Pad Detected");
+                    printf("\n Pad Detected");
                     net_list[cnt].pad=true;
                 }
             }
             cnt++;
         }
-        printf("\n COUNT=%d",cnt);
     }
     printf("\n Reading Done");
     //FILE* fp=fopen("Net_Details_ami49.txt","w");
@@ -121,7 +118,7 @@ void Read_Nets(FILE* fp1,Block* bk_list,int B)
     }
     fclose(fp);*/
     float relaxation=0.05;
-    FILE* fp=fopen("n300_output_simulated.txt","w");
+    FILE* fp=fopen("ami33_output_simulated.txt","w");
     /*for(j=2;j<=5;j++)
     {
         for(i=1;i<=5;i++)

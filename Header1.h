@@ -27,8 +27,8 @@ struct block{
     char name[10];
     int index;
     long area;
-    int length;
-    int width;
+    double length;
+    double width;
     int tier;
     bool lock;
     int no_of_adj_bk;

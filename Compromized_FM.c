@@ -46,18 +46,18 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
     fprintf(fp1,"\nAt End Total Number of MIV after Compromised FM=%d",claculate_MIV(net_list,N,T));
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Compromized FM:%0.6lf",time_taken);
-    start_time=clock();
+    /*start_time=clock();
     Min_area_coverage(bk_list,net_list,tier_list,B,N,T);
     end_time=clock();
     fprintf(fp1,"\nAt End Total Number of MIV after Min area coverage=%d",claculate_MIV(net_list,N,T));
     time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
-    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);
-    FILE* fp=fopen("Final_Block_Placement.txt","w");
+    fprintf(fp1,"\nTime Taken to execute Min area Coverage:%0.6lf",time_taken);*/
+   /* FILE* fp=fopen("Final_Block_Placement.txt","w");
     for(i=0;i<B;i++)
     {
         fprintf(fp,"\n Block_Name=%s\t Block_Index=%d\t Block_Tier=%d",bk_list[i].name,bk_list[i].index,bk_list[i].tier);
     }
-    fclose(fp);
+    fclose(fp);*/
     double tot_area=0;
     for(i=0;i<B;i++)
     {
@@ -73,6 +73,29 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
         fprintf(fp1,"\n Divergence of tier area from avg area=%lf",divergence);
     }
     fprintf(fp1,"\n\nTotal area of tiers=%lf\n",tot_area);
+    double TWL=0;
+    double hwl=0;
+    for(i=0;i<T;i++)
+    {
+        for(j=0;j<N;j++)
+        {
+            hwl=0;
+            Block_Component* tem=net_list[j].bk_ptr;
+            while(tem!=NULL)
+            {
+                if(bk_list[tem->bk_index].tier==i)
+                {
+                    //printf("\n Block No=%d\t Net_No=%d\tTier_No=%d",tem->bk_index,j,i);
+                    hwl+=(bk_list[tem->bk_index].length+bk_list[tem->bk_index].width);
+
+                }
+                tem=tem->right;
+            }
+            //printf("\n HWL=%lf",hwl);
+            TWL+=(hwl)*(hwl);
+        }
+    }
+    fprintf(fp1,"\n\n TWL Calculated =%lf\n",TWL );
 }
 int Extract_Heap(Gain* gain_list,Block* bk_list,int* heap_size)
 {

@@ -10,7 +10,7 @@ void Read_Blocks(FILE* fp1)
     while(cnt<B)
     {
          fscanf(fp1,"%s",str);
-         if(str[0]=='s')
+         if(str[0]=='b' && str[1]=='k')
          {
              i=0;
              while(str[i+2]!='\0')
@@ -20,7 +20,12 @@ void Read_Blocks(FILE* fp1)
              }
              bk_list[cnt].name[i]='\0';
              printf("\n Block Name=%s",bk_list[cnt].name);
-             fscanf(fp1,"%[^\n]",str);
+             int area;
+             fscanf(fp1,"%s%d",str,&area);
+             printf("\t Area=%d",area);
+             bk_list[cnt].area=area;
+             bk_list[cnt].length=bk_list[cnt].width=sqrt(area);
+             /*fscanf(fp1,"%[^\n]",str);
              j=0;
              k=0;
              while(str[j]!='\0')
@@ -52,7 +57,7 @@ void Read_Blocks(FILE* fp1)
                      }
                  }
                  j++;
-             }
+             }*/
              //printf("\n Block Length=%d\t Block Width=%d",bk_list[cnt].length,bk_list[cnt].width);
              bk_list[cnt].area=(bk_list[cnt].length*bk_list[cnt].width);
              bk_list[cnt].index=cnt;
@@ -65,7 +70,7 @@ void Read_Blocks(FILE* fp1)
     {
         bk_list[i].index=i;
     }
-    fp1=fopen("n300.nets","r");
+    fp1=fopen("ami33.nets","r");
     Read_Nets(fp1,bk_list,B);
     fclose(fp1);
     return;

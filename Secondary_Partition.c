@@ -3,14 +3,17 @@ void Secondary_Partition(FILE* fp1,Net* net_list,Block* bk_list,Tier* tr_list,in
 {
     int i,j,k;
     int** Cost=(int**)calloc(B,sizeof(int*));
+    printf("\n Cost Declared");
     for(i=0;i<B;i++)
     {
         bk_list[i].Current_Cost=calculate_block_cost(bk_list,net_list,i,bk_list[i].tier);
     }
-    for(i=0;i<B;i++)
+    printf("\n Current Costs calculated");
+    for(j=0;j<B;j++)
     {
-        Cost[i]=(int*)calloc(T,sizeof(int));
+        Cost[j]=(int*)calloc(T,sizeof(int));
     }
+    printf("\n All Cost rows Declared");
     for(i=0;i<B;i++)
     {
         for(j=0;j<T;j++)
@@ -37,7 +40,6 @@ void Secondary_Partition(FILE* fp1,Net* net_list,Block* bk_list,Tier* tr_list,in
     Compromized_FM(fp1,Cost,gain_list,bk_list,net_list,tr_list,B,N,T);
     printf("\n Gain_list going to be freed");
     free(gain_list);
-
     for(i=0;i<B;i++)
     {
         free(Cost[i]);

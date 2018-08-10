@@ -25,15 +25,18 @@ void Simulated_Initialize(FILE* fp1,Block* bk_list,Net* net_list,int B,int N)
     fprintf(fp1,"\n\nAfter Initialization MIV count=%d",claculate_MIV(net_list,N,2));
     double time_taken=(double)(end-start)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Initialize function:%0.6lf",time_taken);
+     fprintf(fp1,"\n***********************************************************************************************");
+    fprintf(fp1,"\n");
+    fprintf(fp1,"\n***********************************************************************************************");
     //FILE* fp=fopen("Simulated_placement_leger.txt","w");
 
     int no_of_steps=20000;
     for(i=0;i<10;i++)
     {
-        /*fprintf(fp,"\n***********************************************************************************************");
-        fprintf(fp,"\n");
-        fprintf(fp,"\n***********************************************************************************************");
-        fprintf(fp,"\n\nFor No of steps=%d\n\n",no_of_steps);*/
+        fprintf(fp1,"\n***********************************************************************************************");
+        fprintf(fp1,"\n");
+        fprintf(fp1,"\n***********************************************************************************************");
+        //fprintf(fp,"\n\nFor No of steps=%d\n\n",no_of_steps);
         Simulated_Annealtion(fp1,bk_list,net_list,B,N,60000,no_of_steps);
         printf("\n Simulated Annelation with no of steps=%d completes",no_of_steps);
         no_of_steps+=5000;

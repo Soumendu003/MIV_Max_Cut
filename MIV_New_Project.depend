@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1533833621 source:d:\miv_new_project\main.c
+1533918708 source:d:\miv_new_project\main.c
 	"Header1.h"
 
 1533068367 d:\miv_new_project\header.h
@@ -14,10 +14,10 @@
 1533068279 source:d:\miv_new_project\read_nets.c
 	"header.h"
 
-1533833725 source:d:\miv_new_project\read_blocks1.c
+1533920030 source:d:\miv_new_project\read_blocks1.c
 	"Header1.h"
 
-1533750991 d:\miv_new_project\header1.h
+1533919806 d:\miv_new_project\header1.h
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
@@ -26,21 +26,21 @@
 	<time.h>
 	<math.h>
 
-1533832081 source:d:\miv_new_project\read_nets1.c
+1533919389 source:d:\miv_new_project\read_nets1.c
 	"Header1.h"
 
 1533829579 source:d:\miv_new_project\initial_partition.c
 	"Header1.h"
 
-1533826851 source:d:\miv_new_project\secondary_partition.c
+1533918481 source:d:\miv_new_project\secondary_partition.c
 	"Header1.h"
 
-1533833722 source:d:\miv_new_project\compromized_fm.c
+1533920053 source:d:\miv_new_project\compromized_fm.c
 	"Header1.h"
 
-1533751028 source:d:\miv_new_project\simulated_initialize.c
+1533835958 source:d:\miv_new_project\simulated_initialize.c
 	"Header1.h"
 
-1533701035 source:d:\miv_new_project\simulated_annelation.c
+1533917327 source:d:\miv_new_project\simulated_annelation.c
 	"Header1.h"
 
