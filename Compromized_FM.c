@@ -43,7 +43,7 @@ void Compromized_FM(FILE* fp1,int** Cost,Gain* gain_list,Block* bk_list,Net* net
     }
     clock_t end_time=clock();
     printf("\n Placements Done");
-    fprintf(fp1,"\nAt End Total Number of MIV after Compromised FM=%d",claculate_MIV(net_list,N,T));
+    fprintf(fp1,"\nAt End Total Number of MIV after Compromised FM=%d",claculate_MIV(bk_list,net_list,N));
     double time_taken=(double)(end_time-start_time)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Compromized FM:%0.6lf",time_taken);
     /*start_time=clock();

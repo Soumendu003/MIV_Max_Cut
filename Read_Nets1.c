@@ -355,12 +355,50 @@ void update_net_list(Net* net_list,Block* bk_list,int net_index,int bk_index,int
     return;
 }*/
 
-int claculate_MIV(Net* net_list,int N,int T)
+/*int claculate_MIV(Net* net_list,int N,int T)
 {
     int i,MIV=0;
     for(i=0;i<N;i++)
     {
         MIV+=net_list[i].top_tier.tier_index-net_list[i].low_tier.tier_index;
+    }
+    return MIV;
+}*/
+int claculate_MIV(Block* bk_list,Net* net_list,int N)
+{
+    int i,MIV=0;
+    for(i=0;i<N;i++)
+    {
+        int least_tier,top_tier=-1;
+        Block_Component* tem=net_list[i].bk_ptr;
+        if(tem!=NULL)
+        {
+            least_tier=bk_list[tem->bk_index].tier;
+            top_tier=bk_list[tem->bk_index].tier;
+        }
+        while(tem!=NULL)
+        {
+            if(least_tier>bk_list[tem->bk_index].tier)
+            {
+                least_tier=bk_list[tem->bk_index].tier;
+            }
+            if(top_tier<bk_list[tem->bk_index].tier)
+            {
+                top_tier=bk_list[tem->bk_index].tier;
+            }
+            tem=tem->right;
+        }
+        if(net_list[i].gnd || net_list[i].V || net_list[i].pwr || net_list[i].pad)
+        {
+            least_tier=0;
+        }
+        if(top_tier>=0)
+        {
+            MIV+=(top_tier-least_tier);
+        }
+        else{
+            MIV+=0;
+        }
     }
     return MIV;
 }

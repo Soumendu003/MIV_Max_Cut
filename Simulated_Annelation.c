@@ -44,7 +44,7 @@ void Simulated_Annealtion(FILE* fp1,Block* bk_list,Net* net_list,int B,int N,flo
     fprintf(fp1,"\n\n No of Temperature steps=%d",cnt);
     double time_taken=(double)(end-start)/CLOCKS_PER_SEC;
     fprintf(fp1,"\n\nTime Taken to execute Simulated Annelation :%0.6lf",time_taken);
-    fprintf(fp1,"\n\nAfter Simulated Annelation MIV count=%d",claculate_MIV(net_list,N,2));
+    fprintf(fp1,"\n\nAfter Simulated Annelation MIV count=%d",claculate_MIV(bk_list,net_list,N));
     double tot_area=0;
     for(i=0;i<B;i++)
     {

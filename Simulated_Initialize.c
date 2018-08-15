@@ -3,18 +3,22 @@ void Simulated_Initialize(FILE* fp1,Block* bk_list,Net* net_list,int B,int N)
 {
     printf("\n Inside Simulated Initialize");
     srand((unsigned int)time(NULL));
-    int i;
+    int i,j;
     float a=1;
     clock_t start=clock();
+    int* placemennt_details=(int*)calloc(B,sizeof(int));
+    initialize_net_list(net_list,N);
     for(i=0;i<B;i++)
     {
         float r=((float)rand()/(float)(RAND_MAX)) * a;
         if(r>=0.5)
         {
-            place_simulated_block(bk_list,net_list,i,1);
+            place_simulated_initial_block(bk_list,net_list,i,1);
+            placemennt_details[i]=1;
         }
         else{
             place_simulated_initial_block(bk_list,net_list,i,0);
+            placemennt_details[i]=0;
         }
     }
     clock_t end=clock();
@@ -22,7 +26,7 @@ void Simulated_Initialize(FILE* fp1,Block* bk_list,Net* net_list,int B,int N)
     fprintf(fp1,"\n***********************************************************************************************");
     fprintf(fp1,"\n");
     fprintf(fp1,"\n***********************************************************************************************");
-    fprintf(fp1,"\n\nAfter Initialization MIV count=%d",claculate_MIV(net_list,N,2));
+    fprintf(fp1,"\n\nAfter Initialization MIV count=%d",claculate_MIV(bk_list,net_list,N));
     double time_taken=(double)(end-start)/CLOCKS_PER_SEC;
     fprintf(fp1,"\nTime Taken to execute Initialize function:%0.6lf",time_taken);
      fprintf(fp1,"\n***********************************************************************************************");
@@ -37,6 +41,12 @@ void Simulated_Initialize(FILE* fp1,Block* bk_list,Net* net_list,int B,int N)
         fprintf(fp1,"\n");
         fprintf(fp1,"\n***********************************************************************************************");
         //fprintf(fp,"\n\nFor No of steps=%d\n\n",no_of_steps);
+        initialize_net_list(net_list,N);
+        for(j=0;j<B;j++)
+        {
+            place_simulated_initial_block(bk_list,net_list,j,placemennt_details[j]);
+        }
+        fprintf(fp1,"\n\nAfter Initialization MIV count=%d",claculate_MIV(bk_list,net_list,N));
         Simulated_Annealtion(fp1,bk_list,net_list,B,N,60000,no_of_steps);
         printf("\n Simulated Annelation with no of steps=%d completes",no_of_steps);
         no_of_steps+=5000;
